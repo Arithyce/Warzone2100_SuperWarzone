@@ -35,11 +35,11 @@
 ==version 1.5/2.x/3.x/4.x/5.x additions==
 --
 =coming in version 1.5=
--add barrage rocket array = all-rounder in rocket branch;
--add meteor missile array = all-rounder in missile branch;
+-add volley rocket array = all-rounder in rocket branch;
+-add barrage missile array = all-rounder in missile branch;
 -
 // artillery aa have the same range as their anti-surface counterparts, and the same reload time, //
-// however, they are direct fire and only use the artillery round modifier, //
+// however, they are direct fire and only use the artillery round modifier and specific subclass, //
 // as such, they will need radar to increase their range, //
 // note that for direct fire weapons, any source of radar will increase their range, such as your army, //
 // unlike indirect, which needs to be assigned to a dedicated sensor. //
@@ -134,11 +134,11 @@
 -rebalanced bunker buster;
 -added tank buster;
 -added air buster;
--added borg buster;
+-added cyborg buster;
 -added bunker blaster;
 -added tank blaster;
 -added air blaster;
--added borg blaster;
+-added cyborg blaster;
 -
 -added obliterator;
 -rebalanced plasma cannon;
