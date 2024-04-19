@@ -1,0 +1,28 @@
+
+// this is a list of ideas i keep for my own use because i have the memory of a goldfish. //
+// there is no reason not to share it. //
+// these may or may not make it into the mod. //
+
+`formating follows the same rules as 'changelog.txt',
+
+==sorted by tech level/research time==
+-Auto/Assault Cannon AA;
+	~(probably a Twin Assault Cannon).
+-
+-Dual Scourge Missile;
+	~(anti-tank Vindicator).
+-
+-Auto/Assault Laser AA;
+	~(probably a Twin Auto/Assault Laser).
+-
+-Auto/Assault Railgun AA;
+	~(probably a Twin Auto/Assault Railgun).
+-
+-Guided Bomb Bays;
+	~(lots of different weapons grouped into this one entry, it's placement here reflects the tech level/research time of the most advanced of the Guided Bomb Bays).
+-
+-Dual Blasters;
+	~(lots of different weapons grouped into this one entry, it's placement here reflects the tech level/research time of the most advanced of the Dual Busters and Blasters).
+-
+-Single-Tubed Heavy AT Weapons;
+	~(lots of different weapons grouped into this one entry, it's placement here reflects the tech level/research time of the most advanced of the Single-Tubed Heavy AT Weapons).

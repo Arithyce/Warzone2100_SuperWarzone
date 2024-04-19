@@ -1,0 +1,274 @@
+
+// this is a changelog i keep for my own use because i have the memory of a goldfish. //
+// there is no reason not to share it. //
+
+==information on formatting==
+// this changelog contains minimal capitalization. //
+// this changelog contains "general/info comments", they always have their own line and the line always starts with them. //
+// this changelog contains "headers", these are titles that describe the content contained under them, //
+// they always have their own line and the line always starts with them. //
+// this changelog contains "non-comment info", this info is not a comment and is always on it's own line and the line always starts with it. //
+// this changelog contains "directories", these can be either external file paths or internal hierarchy. //
+// this changelog contains "entries", these are the actual changes being logged. //
+// this changelog contains "entry comments/notes", these are comments or notes on an entry, //
+// they always have their own line, and are always indented under an entry. //
+// more info on all of the above underneath "information on formatting" follows below. //
+// general/info comments start and end with '//'. //
+// non-comment info starts with '`'. //
+// non-comment info ends with ','. //
+// major headers begin and end with '=='. //
+// minor headers begin and end with '='. //
+// major entries are separated with '---' between them. //
+// minor entries are separated with '-' between them. //
+// special entries are separated within major/minor separators with '--'. //
+// directories (both file paths and internal) start with '|'. //
+// directories (both file paths and internal) for every level of indentation start with an extra '|'. //
+// directories (both file paths and internal) end with ':'. //
+// entries start with '-'. //
+// entries end with ';'. //
+// directories/entries can be both a directory and an entry, in these cases they will start with '|-'. //
+// directories/entries can be both a directory and an entry, in these cases for every level of indentation they will start with an extra '|'. //
+// directories/entries can be both a directory and an entry, in these cases they will end with ';:'. //
+// entry comments/notes will be indented underneath an entry in '()'. //
+// entry comments/notes start with '~'. //
+// entry comments/notes end with ',' or '.'. //
+
+==more information on formatting==
+==LEGEND; in order of appearance==
+`'+' with preceding text followed by text = the following text includes additional changes,
+`'=' with preceding text followed by text = the following text includes additional information on the preceding text,
+-
+`(TBD) = to-be-done/to-be-decided = only really appears in 'todo.txt',
+`(WIP) = work-in-progress,
+`(FIN) = finished,
+-
+`(HAK) = hacked into the game with some missing and/or incomplete functionality,
+`(IMP) = will not be enabled as it is impossible to add without source code support,
+-
+`['NUM'] = line number,
+
+==sorted by type/similarity, starting alphabetically==
+|mp\components\weapons:
+	||added:
+		-busterbunker.pie = added texture (FIN);
+		-busterbunkermount.pie = added texture (FIN);
+		-bustertank.pie = added texture (FIN);
+		-bustertankmount.pie = added texture (FIN);
+		-busterair.pie = added texture (FIN);
+		-busterairmount.pie = added texture (FIN);
+		-busterborg.pie = added texture (FIN);
+		-busterborgmount.pie = added texture (FIN);
+		-blasterbunker.pie = added texture (FIN);
+		-blasterbunkermount.pie = added texture (FIN);
+		-blastertank.pie = added texture (FIN);
+		-blastertankmount.pie = added texture (FIN);
+		-blasterair.pie = added texture (FIN);
+		-blasterairmount.pie = added texture (FIN);
+		-blasterborg.pie = added texture (FIN);
+		-blasterborgmount.pie = added texture (FIN);
+		-obliterator.pie = added texture (FIN);
+		-obliteratormount.pie = added texture (FIN);
+---
+|mp\messages:
+	||resmessagesall.json:
+		-updated bunker buster description (FIN) [860];
+		-added tank buster (FIN);
+		-added tank buster tower (FIN);
+		-added air buster aa (FIN);
+		-added air buster aa tower (FIN);
+		-added cyborg buster (FIN);
+		-added cyborg buster tower (FIN);
+		-added bunker blaster (FIN);
+		-added bunker blaster tower (FIN);
+		-added tank blaster (FIN);
+		-added tank blaster tower (FIN);
+		-added air blaster aa (FIN);
+		-added air blaster aa tower (FIN);
+		-added obliterator (FIN);
+		-added obliterator emplacement (FIN);
+---
+|mp\multiplay\script\mods;
+	||init.js:
+		-added mod include = "superwarzone/sw.js" (FIN);
+---
+|mp\multiplay\script\rules\setup;
+	||droidlimits.js:
+		-increased overall unit limit from 150 to 9999 (FIN);
+			~(i am not responsible for melted computers).
+			~(in the future, i may base this on map size and number of players).
+		-increased constructor unit limit from 15 to 25 (FIN);
+-
+	||powermodifier.js:
+		-increased low power from 85 to 128 (+50%) (FIN);
+		-increased medium power from 105 to 158 (+50%) (FIN);
+		-increased high power from 125 to 188 (+50%) (FIN);
+		-changed bot difficulty power modifiers in accordance with the above player changes (FIN);
+		-refactored bot difficulty power modifiers to properly use power level setting (FIN);
+		-fixed bot difficulty power modifiers to be in-line with in-game description (FIN);
+		-changed easy bot to get 25% less power than selected power level setting (FIN);
+		-changed medium bot to get 10% more power than the selected power level setting (FIN);
+		-changed hard bot to get 50% more power than the selected power level setting (FIN);
+		-changed insane bot to get 100% more power than the selected power level setting (FIN);
+-
+	||structurelimits.js:
+		~(i am not sure this file even does anything).
+		-added more limits = added the missing limit data from 'structure.json' (FIN);
+		-increased all limits to 100 (FIN);
+---
+|mp\multiplay\skirmish:
+	-added new cobra variants for dedicated weapon paths, changed files and folders listed below (FIN,HAK);
+		~(i might add variants for flamer and mortar in the future).
+-
+	||added:
+		~(copied but unchanged files and folders are excluded from this changelog).
+		|||-cobra-ap_includes\ (FIN);:
+			-modified adaption.js (FIN,HAK);
+		-cobra-ap_rulesets\ (FIN);
+		|||-cobra-ar_includes\ (FIN);:
+			-modified adaption.js (FIN,HAK);
+		-cobra-ar_rulesets\ (FIN);
+		|||-cobra-at_includes\ (FIN);:
+			-modified adaption.js (FIN,HAK);
+		-cobra-at_rulesets\ (FIN);
+		-Cobra-AP.js (FIN);
+		-Cobra-AP.json (FIN);
+		-Cobra-AR.js (FIN);
+		-Cobra-AR.json (FIN);
+		-Cobra-AT.js (FIN);
+		-Cobra-AT.json (FIN);
+-
+	||added tips for medium and hard to:
+		-bonecrusher.json (FIN);
+		-Cobra.json (FIN);
+		-nb_generic.json (FIN);
+		-nb_hover.json (FIN);
+		-nb_turtle.json (FIN);
+		-nexus.json (FIN);
+		-semperfi.json (FIN);
+---
+|mp\stats:
+	||research.json:
+		-added tank buster (FIN);
+		-added vtol tank buster (FIN);
+		-added tank buster tower (FIN);
+		-added air buster aa (FIN);
+		-added vtol air buster aa (FIN);
+		-added air buster aa tower (FIN);
+		-added cyborg buster (FIN);
+		-added vtol cyborg buster (FIN);
+		-added cyborg buster tower (FIN);
+		-added bunker blaster (FIN);
+		-added vtol bunker blaster (FIN);
+		-added bunker blaster tower (FIN);
+		-added tank blaster (FIN);
+		-added vtol tank blaster (FIN);
+		-added tank blaster tower (FIN);
+		-added air blaster aa (FIN);
+		-added vtol air blaster aa (FIN);
+		-added air blaster aa tower (FIN);
+		-added obliterator (FIN);
+		-added obliterator emplacement (FIN);
+		-added vtol plasma cannon (FIN);
+		-fixed bug with plasma cannon emplacement = wrong stat id fixed (FIN) [1206];
+		-changed tank killer to make lancer redundant (FIN) [8911];
+		|||increased HP upgrade to match armor upgrade of:
+			-Improved Hardcrete (FIN) [1824];
+			-Improved Hardcrete Mk2 (FIN) [1853];
+			-Improved Hardcrete Mk3 (FIN) [1882];
+			-Supercrete (FIN) [1911];
+			-Supercrete Mk2 (FIN) [1941];
+			-Supercrete Mk3 (FIN) [1970];
+			-Plascrete (FIN) [1999];
+			-Plascrete Mk2 (FIN) [2029];
+			-Plascrete Mk3 (FIN) [2058];
+			-Plasteel (FIN) [2087];
+			-Plasteel Mk2 (FIN) [2116];
+			-Plasteel Mk3 (FIN) [2145];
+			-Reinforced Base Structure Materials (FIN) [2306];
+			-Hardened Base Structure Materials (FIN) [2335];
+			-Advanced Base Structure Materials (FIN) [2365];
+-
+	||sensor.json:
+		-added ultimate sensor (FIN);
+			~(sensor used by some of the new structures, mostly the ones with absurd weapon ranges such as the obliterator emplacement and *super obliterator fortress*),
+			~(while i could require players to build sensor towers, you have to remember what kind of mod this is, plus that thing is already really expensive and takes forever to build).
+-
+	||structure.json:
+		-added bunker buster tower (FIN);
+		-added tank buster tower (FIN);
+		-added air buster aa tower (FIN);
+		-added cyborg buster tower (FIN);
+		-added bunker blaster tower (FIN);
+		-added tank blaster tower (FIN);
+		-added air blaster aa tower (FIN);
+		-added obliterator emplacement (FIN);
+		-rebalanced power generator (FIN) [585];
+		-added power cost to power module (FIN) [566];
+		|||added and/or set the limits to 100 of:
+			-command center (FIN) [382];
+			-command relay center (FIN) [357];
+			-power generator (FIN) [585];
+			-research facility (FIN) [641];
+			-repair facility (FIN) [614];
+			-factory (FIN) [535];
+			-cyborg factory (FIN) [407];
+			-vtol factory (FIN) [749];
+			-vtol rearming pad (FIN) [780];
+			-satellite uplink center (FIN) [709];
+			-laser satellite command Post (FIN) [510];
+--
+// this mod includes a huge rebalance to all weapons, mostly via modifiers. //
+// anti-personnel has been rebalanced to do more overall damage to units, less overall damage to structures, and now does more damage the softer the unit/structure is. //
+// anti-tank has been rebalanced to do more overall damage to units, more damage the harder the unit is, and less overall damage to structures, more damage the softer the structure is. //
+// all-rounder has been rebalanced to do more overall damage to units, less overall damage to structures, and now does more damage the softer the target is. //
+// all-rounder now does median damage between anti-personnel and anti-tank, with a preference of damaging softer targets, because of this, the cannon branch is still OP, and this really cannot be addressed. //
+// the rest have "minor" tweaks, ask me about it if curious, or compare the files yourself. //
+-
+	||structuremodifier.json:
+		-rebalanced all modifiers (FIN);
+-
+	||weaponmodifier.json:
+		-rebalanced all modifiers (FIN);
+--
+	||weapons.json:
+		-rebalanced sunburst aa = removed homing (FIN) [4173];
+		-rebalanced vtol sunburst aa = removed homing (FIN) [4391];
+		-rebalanced hurricane aa turret = removed homing (FIN) [3594];
+		-rebalanced whirlwind aa turret = removed homing (FIN) [3636];
+		-rebalanced aa cyclone flak cannon = removed homing (FIN) [2];
+		-rebalanced aa tornado flak cannon = removed homing (FIN) [44];
+		-rebalanced stormbringer aa laser = removed homing (FIN) [86];
+		-rebalanced ripple rockets (FIN) [3960];
+		-rebalanced hyper velocity cannon (FIN) [956];
+		-rebalanced bunker buster (FIN) [3878];
+		-rebalanced vtol bunker buster (FIN) [4219];
+		-added tank buster (FIN);
+		-added vtol tank buster (FIN);
+		-added air buster aa (FIN);
+		-added vtol air buster aa (FIN);
+		-added cyborg buster (FIN);
+		-added vtol cyborg buster (FIN);
+		-added bunker blaster (FIN);
+		-added tank blaster (FIN);
+		-added vtol tank blaster (FIN);
+		-added air blaster aa (FIN);
+		-added vtol air blaster aa (FIN);
+		-added obliterator (FIN);
+		-added vtol plasma cannon (FIN);
+		-added lassat control (WIP,IMP);
+		-added mini-nuke array (WIP);
+		-added nuke launcher (WIP);
+---
+|mp\texpages:
+	||added:
+		-page-500_tcmask.png (FIN);
+		-page-500-busterbunker.png (FIN);
+		-page-500-bustertank.png (FIN);
+		-page-500-busterair.png (FIN);
+		-page-500-busterborg.png (FIN);
+		-page-500-blasterbunker.png (FIN);
+		-page-500-blastertank.png (FIN);
+		-page-500-blasterair.png (FIN);
+		-page-500-blasterborg.png (FIN);
+		-page-500-obliterator.png (FIN);
+---

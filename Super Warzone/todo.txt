@@ -1,0 +1,141 @@
+
+// this is a todo i keep for my own use because i have the memory of a goldfish. //
+// there is no reason not to share it. //
+
+`formating follows the same rules as 'changelog.txt',
+
+==sorted by type/similarity, starting by status and order of implementation==
+--
+=TBD=
+-add wheels 2;
+-add wheels 3;
+-add half-tracks 2;
+-add half-tracks 3;
+-add tracks 2;
+-add tracks 3;
+-add hover 2;
+-add hover 3;
+-add vtol 2;
+-add vtol 3;
+-add legs 2;
+-add legs 3;
+-
+-re-implement mk2 and mk3 production upgrades;
+-add production upgrade 5;
+-add production upgrade 6;
+-
+-re-implement mk2 and mk3 repair upgrades;
+-add repair upgrade 4;
+-add repair upgrade 5;
+-
+-add auto-repair upgrade 1;
+-add auto-repair upgrade 2;
+-
+-add nexus upgrade 1;
+-add nexus upgrade 2;
+-
+-re-implement mk2 and mk3 structure upgrades;
+-add structure upgrade 4;
+-add structure upgrade 5;
+-
+-add defense upgrade 13;
+-add defense upgrade 16;
+-
+-increase power upgrade bonus;
+---
+==version 1.5/2.x/3.x/4.x/5.x additions==
+--
+=coming in version 1.5=
+-add barrage rocket array = all-rounder in rocket branch;
+-add meteor missile array = all-rounder in missile branch;
+-
+// artillery aa have the same range as their anti-surface counterparts, and the same reload time, //
+// however, they are direct fire and only use the artillery round modifier, //
+// as such, they will need radar to increase their range, //
+// note that for direct fire weapons, any source of radar will increase their range, such as your army, //
+// unlike indirect, which needs to be assigned to a dedicated sensor. //
+-add ripple rocket aa = artillery aa in the rocket branch;
+-add archangel missile aa = artillery aa in the missile branch;
+--
+=coming in version 2.x=
+-rename machinegun to light machinegun;
+-replace twin machinegun with medium machinegun;
+-rename assault gun to light assault gun;
+-replace twin assault gun with medium assault gun;
+-add heavy assault gun = light laser alternative;
+-add light gun = light assault gun alternative; 
+-add medium gun = all-rounder in machinegun branch;
+-add heavy gun = anti-tank in machinegun branch;
+-add light auto gun = heavy assault gun alternative;
+-add medium auto gun = all-rounder in machinegun branch;
+-add heavy auto gun = anti-tank in machinegun branch;
+--
+=coming in version 3.x=
+-rename flashlight to light laser;
+-rename pulse laser to medium laser;
+-rebalance heavy laser = reduce weight;
+-add hyper laser = heavy laser alternative;
+-add beam laser = all-rounder in laser branch;
+-add ultra laser = anti-tank in laser branch;
+--
+=coming in version 4.x=
+-rename assault cannon to light auto cannon;
+-replace twin assault cannon with medium auto cannon;
+-add heavy auto cannon = light coil gun alternative;
+-add ultra velocity cannon = anti-tank in cannon branch;
+-add shredder auto cannon = anti-personnel in cannon branch;
+--
+=coming in version 5.x=
+-rename needle gun to light coil gun;
+-rename rail gun to medium coil gun;
+-rename gauss cannon to heavy coil gun;
+-add hyper coil gun = heavy coil gun alternative;
+-add ultra coil gun = anti-tank in coil branch;
+-add auto coil gun = anti-personnel in coil branch;
+---
+--
+=WIP=
+-add mini-nuke array;
+-add nuke launcher;
+-
+-add vtol variants of all aa;
+--
+=FIN=
+-increase structure limits;
+-increase unit limits;
+-increase power bonus from power level settings;
+-
+-fix wrong stat id of plasma cannon emplacement research topic;
+-
+-change tank killer to make lancer redundant;
+-
+-rebalance bunker buster;
+-add tank buster;
+-add air buster;
+-add borg buster;
+-add bunker blaster;
+-add tank blaster;
+-add air blaster;
+-add borg blaster;
+-
+-add obliterator;
+-rebalance plasma cannon;
+-
+-add cost to power module;
+-increase power module power bonus;
+-
+-increase structure and defense hitpoint upgrade amount;
+-
+-increase speed and hp pct of all propulsions;
+---
+==these items require source code changes==
+==sorted by type/similarity, starting by status and order of implementation==
+--
+=TBD=
+-add nuclear power plant (HAK);
+--
+=WIP=
+-add lassat control (IMP);
+--
+=FIN=
+|
