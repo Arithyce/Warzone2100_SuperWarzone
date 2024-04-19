@@ -1,0 +1,3 @@
+Super Warzone is licensed and available under:
+cc-by-sa-3.0 (or, at your discretion, any later version)
+Alternatively, Super Warzone may be used & distributed under the terms of the GNU General Public License Version 2 or later (the "GPL").
