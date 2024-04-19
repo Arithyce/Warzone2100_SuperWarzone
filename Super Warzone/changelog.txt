@@ -122,11 +122,11 @@
 		-added helicopter mk2 (FIN);
 		-added helicopter mk3 (FIN);
 ---
-|mp\multiplay\script\mods;
+|mp\multiplay\script\mods:
 	||init.js:
 		-added mod include = "superwarzone/sw.js" (FIN);
 ---
-|mp\multiplay\script\rules\setup;
+|mp\multiplay\script\rules\setup:
 	||droidlimits.js:
 		-increased overall unit limit from 150 to 9999 (FIN);
 			~(i am not responsible for melted computers).
