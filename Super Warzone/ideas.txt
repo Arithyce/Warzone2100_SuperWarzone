@@ -3,7 +3,7 @@
 // there is no reason not to share it. //
 // these may or may not make it into the mod. //
 
-`formating follows the same rules as 'changelog.txt',
+`formating follows the same rules as 'changelog.txt' = with the exception of capitalization,
 
 ==sorted by tech level/research time==
 -Auto/Assault Cannon AA;

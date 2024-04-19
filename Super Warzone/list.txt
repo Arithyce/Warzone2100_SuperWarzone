@@ -1,0 +1,5 @@
+finish implementing naval and helicopter research
+finish implementing navy weapons
+implement heli weapons
+implement navy and heli research
+implement navy and heli templates

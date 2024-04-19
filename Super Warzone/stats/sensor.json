@@ -251,9 +251,18 @@
 		"id": "UltimateSensor",
 		"location": "DEFAULT",
 		"name": "*Ultimate Sensor*",
-		"power": 1000,
-		"range": 3200,
+		"power": 2000,
+		"range": 3456,
 		"type": "STANDARD"
+	},
+	"NavalInternal": {
+		"id": "NavalInternal",
+		"location": "DEFAULT",
+		"mountModel": "TRLSNSR1.PIE",
+		"name": "*Navy Internal Sensor*",
+		"power": 4000,
+		"range": 6144,
+		"type": "STANDARD",
 	},
 	"NavalSensor": {
 		"buildPoints": 200,
