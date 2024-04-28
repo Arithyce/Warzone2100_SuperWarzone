@@ -7,6 +7,14 @@
 ==sorted by type/similarity, starting by status and order of implementation==
 --
 =TBD=
+add super weapon upgrades
+-
+rebalance sensor upgrade 1-3
+add sensor upgrade 4-6;
+add sensor upgrade 7-9;
+-
+add nuclear power upgrades 1-3;
+-
 -increase power upgrade bonus;
 -
 -re-implement mk2 and mk3 production upgrades;
@@ -100,13 +108,10 @@
 -add launch code research into multiplayer/skirmish;
 	~(nuclear weapons will require this).
 // new super weapon* for rocket branch. //
--add mini-nuke launcher = fires a single dumb long range mini-nuke = very slow/slow/fast game ender;
-	~("very slow/slow/fast game ender", this is because there will be more rocket upgrades in tier 4),
-	~(researching them will upgrade it to "slow" and beyond, it is the only VTOL mountable super weapon (excluding the plasma cannon)),
-	~(because of these things, the rocket branch gets only one* super weapon).
+-add mini-nuke launcher = fires a single dumb long range mini-nuke = very slow game ender;
 // new super weapons for missile branch. //
--add tactical-nuke launcher = fires salvo of 3 tactical nukes = slow game ender;
--add strategic-nuke launcher = fires 2 strategic nukes = fast game ender;
+-add tactical nuke launcher = fires 3 tactical nukes before needing to reload = slow game ender;
+-add strategic nuke launcher = fires 2 strategic nukes before needing to reload = fast game ender;
 -
 -add vtol variants of all aa;
 --

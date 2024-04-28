@@ -892,6 +892,7 @@
 	},
 	"RES_W_RK_TBU": {
 		"_swst": null,
+		"_wpst": null,
 		"id": "RES_W_RK_TBU",
 		"imdName": "MICAPSUL.PIE",
 		"sequenceName": "res_weapons.ogg",
@@ -981,7 +982,19 @@
 			"Body Points: EXTREME"
 		]
 	},
+	"RES_W_LASSATC": {
+		"id": "RES_W_LASSATC",
+		"imdName": "MICAPSUL.PIE",
+		"sequenceName": "res_weapons.ogg",
+		"text": [
+			"New Advanced Mobile Weapon Available",
+			"Very slow recharge time",
+			"Immense damage infliction capability",
+			"Narrow area of effect"
+		]
+	},
 	"RES_EMP_BBUTOW": {
+		"_dfst": null,
 		"id": "RES_EMP_BBTOW",
 		"imdName": "MICAPSUL.pie",
 		"sequenceName": "res_struttech.ogg",
@@ -1080,7 +1093,19 @@
 			"Defensive Strength: EXTREME"
 		]
 	},
+	"RES_SITE_LASSATC": {
+		"id": "RES_SITE_LASSATC",
+		"imdName": "MICAPSUL.PIE",
+		"sequenceName": "res_struttech.ogg",
+		"text": [
+			"New Advanced Automatic Weapon Available",
+			"Very slow recharge time",
+			"Immense damage infliction capability",
+			"Narrow area of effect"
+		]
+	},
 	"RES_V_P_N1": {
+		"_prst": null,
 		"id": "RES_V_P_N1",
 		"imdName": "MICAPSUL.pie",
 		"sequenceName": "res_droid.ogg",

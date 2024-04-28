@@ -3745,8 +3745,6 @@
 		"width": 1
 	},
 	"Emplacement-Obliterator": {
-		"_swMod": null,
-		"_swmd": null,
 		"armour": 100,
 		"breadth": 1,
 		"buildPoints": 10000,
@@ -3765,6 +3763,94 @@
 		"type": "DEFENSE",
 		"weapons": [
 			"Obliterator"
+		],
+		"width": 1
+	},
+	"Site-LasSatControl": {
+		"armour": 20,
+		"breadth": 1,
+		"buildPoints": 25000,
+		"buildPower": 10000,
+		"height": 1,
+		"hitpoints": 1000,
+		"id": "Site-LasSatControl",
+		"name": "Laser Satellite Control Site",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"blaamnt2.pie"
+		],
+		"thermal": 20,
+		"type": "DEFENSE",
+		"weapons": [
+			"LasSatCtrl"
+		],
+		"width": 1
+	},
+	"Battery-MiniNuke": {
+		"armour": 20,
+		"breadth": 1,
+		"buildPoints": 12500,
+		"buildPower": 5000,
+		"height": 1,
+		"hitpoints": 500,
+		"id": "Battery-MiniNuke",
+		"name": "Mini-Nuke Rocket Battery",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "BUNKER",
+		"structureModel": [
+			"blhardpt.pie"
+		],
+		"thermal": 20,
+		"type": "DEFENSE",
+		"weapons": [
+			"MiniNuke"
+		],
+		"width": 1
+	},
+	"Site-TacticalNuke": {
+		"armour": 20,
+		"breadth": 1,
+		"buildPoints": 25000,
+		"buildPower": 10000,
+		"height": 1,
+		"hitpoints": 1000,
+		"id": "Site-TacticalNuke",
+		"name": "Tactical Nuke Missile Site",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "BUNKER",
+		"structureModel": [
+			"blbunkms.pie"
+		],
+		"thermal": 20,
+		"type": "DEFENSE",
+		"weapons": [
+			"TacticalNukeSite"
+		],
+		"width": 1
+	},
+	"Site-StrategicNuke": {
+		"armour": 20,
+		"breadth": 1,
+		"buildPoints": 50000,
+		"buildPower": 20000,
+		"height": 1,
+		"hitpoints": 2000,
+		"id": "Site-StrategicNuke",
+		"name": "Strategic Nuke Missile Site",
+		"resistance": 150,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "BUNKER",
+		"structureModel": [
+			"blbunkms.pie"
+		],
+		"thermal": 20,
+		"type": "DEFENSE",
+		"weapons": [
+			"StrategicNukeSite"
 		],
 		"width": 1
 	}

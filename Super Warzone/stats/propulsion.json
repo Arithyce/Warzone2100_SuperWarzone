@@ -1,7 +1,8 @@
 {
 	"BaBaLegs": {
+		"acceleration": 100,
 		"buildPoints": 15,
-		"deceleration": 450,
+		"deceleration": 200,
 		"hitpointPctOfBody": 50,
 		"id": "BaBaLegs",
 		"name": "BaBaLegs",
@@ -13,18 +14,23 @@
 		"weight": 10
 	},
 	"BaBaProp": {
+		"acceleration": 100,
 		"buildPoints": 15,
+		"deceleration": 300,
 		"hitpointPctOfBody": 50,
 		"id": "BaBaProp",
 		"name": "BaBaProp",
+		"skidDeceleration": 200,
 		"speed": 200,
 		"type": "Wheeled",
 		"weight": 10
 	},
 	"CyborgLegs": {
+		"acceleration": 150,
 		"buildPoints": 50,
 		"buildPower": 10,
-		"deceleration": 450,
+		"deceleration": 300,
+		"hitpoints": 50,
 		"hitpointPctOfBody": 50,
 		"id": "CyborgLegs",
 		"name": "Cyborg Propulsion",
@@ -37,10 +43,11 @@
 		"weight": 50
 	},
 	"CyborgLegs02": {
-		"_swst": null,
+		"acceleration": 225,
 		"buildPoints": 50,
 		"buildPower": 10,
-		"deceleration": 675,
+		"deceleration": 450,
+		"hitpoints": 75,
 		"hitpointPctOfBody": 75,
 		"id": "CyborgLegs02",
 		"name": "Cyborg Propulsion",
@@ -52,9 +59,11 @@
 		"weight": 37.5
 	},
 	"CyborgLegs03": {
+		"acceleration": 300,
 		"buildPoints": 50,
 		"buildPower": 10,
-		"deceleration": 900,
+		"deceleration": 600,
+		"hitpoints": 100,
 		"hitpointPctOfBody": 100,
 		"id": "CyborgLegs03",
 		"name": "Cyborg Propulsion",
@@ -66,9 +75,12 @@
 		"weight": 25
 	},
 	"HalfTrack": {
+		"acceleration": 75,
 		"buildPoints": 75,
 		"buildPower": 75,
+		"deceleration": 300,
 		"designable": 1,
+		"hitpoints": 200,
 		"hitpointPctOfBody": 200,
 		"id": "HalfTrack",
 		"model": "prlhtr1.pie",
@@ -79,9 +91,12 @@
 		"weight": 400
 	},
 	"HalfTrack02": {
+		"acceleration": 112.5,
 		"buildPoints": 75,
 		"buildPower": 75,
+		"deceleration": 450,
 		"designable": 1,
+		"hitpoints": 300,
 		"hitpointPctOfBody": 300,
 		"id": "HalfTrack02",
 		"model": "prlhtr1.pie",
@@ -92,9 +107,12 @@
 		"weight": 300
 	},
 	"HalfTrack03": {
+		"acceleration": 150,
 		"buildPoints": 75,
 		"buildPower": 75,
+		"deceleration": 600,
 		"designable": 1,
+		"hitpoints": 400,
 		"hitpointPctOfBody": 400,
 		"id": "HalfTrack03",
 		"model": "prlhtr1.pie",
@@ -109,6 +127,8 @@
 		"buildPoints": 62.5,
 		"buildPower": 75,
 		"deceleration": 100,
+		"designable": 1,
+		"hitpoints": 50,
 		"hitpointPctOfBody": 50,
 		"id": "Helicopter",
 		"model": "PRLHELI1.PIE",
@@ -124,6 +144,8 @@
 		"buildPoints": 62.5,
 		"buildPower": 75,
 		"deceleration": 150,
+		"designable": 1,
+		"hitpoints": 75,
 		"hitpointPctOfBody": 75,
 		"id": "Helicopter02",
 		"model": "PRLHELI1.PIE",
@@ -139,6 +161,8 @@
 		"buildPoints": 62.5,
 		"buildPower": 75,
 		"deceleration": 200,
+		"designable": 1,
+		"hitpoints": 100,
 		"hitpointPctOfBody": 100,
 		"id": "Helicopter03",
 		"model": "PRLHELI1.PIE",
@@ -150,34 +174,49 @@
 		"weight": 20
 	},
 	"Naval": {
+		"acceleration": 50,
 		"buildPoints": 500,
 		"buildPower": 500,
+		"deceleration": 50,
+		"designable": 1,
+		"hitpoints": 1000,
 		"hitpointPctOfBody": 1000,
 		"id": "Naval",
 		"model": "prhnaval1.pie",
 		"name": "Naval",
+		"skidDeceleration": 50,
 		"speed": 500,
 		"type": "Propellor",
 		"weight": 1000
 	},
 	"Naval02": {
+		"acceleration": 75,
 		"buildPoints": 300,
 		"buildPower": 300,
+		"deceleration": 75,
+		"designable": 1,
+		"hitpoints": 1500,
 		"hitpointPctOfBody": 1500,
 		"id": "Naval02",
 		"model": "prhnaval1.pie",
 		"name": "Naval",
+		"skidDeceleration": 75,
 		"speed": 750,
 		"type": "Propellor",
 		"weight": 750
 	},
 	"Naval03": {
+		"acceleration": 100,
 		"buildPoints": 300,
 		"buildPower": 300,
+		"deceleration": 100,
+		"designable": 1,
+		"hitpoints": 2000,
 		"hitpointPctOfBody": 2000,
 		"id": "Naval03",
 		"model": "prhnaval1.pie",
 		"name": "Naval",
+		"skidDeceleration": 100,
 		"speed": 1000,
 		"type": "Propellor",
 		"weight": 500
@@ -188,6 +227,7 @@
 		"buildPower": 150,
 		"deceleration": 200,
 		"designable": 1,
+		"hitpoints": 100,
 		"hitpointPctOfBody": 100,
 		"id": "V-Tol",
 		"model": "DPVTOL.PIE",
@@ -204,6 +244,7 @@
 		"buildPower": 150,
 		"deceleration": 300,
 		"designable": 1,
+		"hitpoints": 150,
 		"hitpointPctOfBody": 150,
 		"id": "V-Tol02",
 		"model": "DPVTOL.PIE",
@@ -220,6 +261,7 @@
 		"buildPower": 150,
 		"deceleration": 400,
 		"designable": 1,
+		"hitpoints": 200,
 		"hitpointPctOfBody": 200,
 		"id": "V-Tol03",
 		"model": "DPVTOL.PIE",
@@ -237,9 +279,12 @@
 		"type": "Wheeled"
 	},
 	"hover01": {
+		"acceleration": 50,
 		"buildPoints": 100,
 		"buildPower": 150,
+		"deceleration": 50,
 		"designable": 1,
+		"hitpoints": 100,
 		"hitpointPctOfBody": 100,
 		"id": "hover01",
 		"model": "PRLHOV1.PIE",
@@ -250,9 +295,12 @@
 		"weight": 200
 	},
 	"hover02": {
+		"acceleration": 75,
 		"buildPoints": 100,
 		"buildPower": 150,
+		"deceleration": 75,
 		"designable": 1,
+		"hitpoints": 150,
 		"hitpointPctOfBody": 150,
 		"id": "hover02",
 		"model": "PRLHOV1.PIE",
@@ -263,9 +311,12 @@
 		"weight": 150
 	},
 	"hover03": {
+		"acceleration": 100,
 		"buildPoints": 100,
 		"buildPower": 150,
+		"deceleration": 100,
 		"designable": 1,
+		"hitpoints": 200,
 		"hitpointPctOfBody": 200,
 		"id": "hover03",
 		"model": "PRLHOV1.PIE",
@@ -276,9 +327,12 @@
 		"weight": 100
 	},
 	"tracked01": {
+		"acceleration": 50,
 		"buildPoints": 125,
 		"buildPower": 125,
+		"deceleration": 250,
 		"designable": 1,
+		"hitpoints": 300,
 		"hitpointPctOfBody": 300,
 		"id": "tracked01",
 		"model": "prltrk1.pie",
@@ -289,9 +343,12 @@
 		"weight": 650
 	},
 	"tracked02": {
+		"acceleration": 75,
 		"buildPoints": 125,
 		"buildPower": 125,
+		"deceleration": 375,
 		"designable": 1,
+		"hitpoints": 450,
 		"hitpointPctOfBody": 450,
 		"id": "tracked02",
 		"model": "prltrk1.pie",
@@ -302,9 +359,12 @@
 		"weight": 487.5
 	},
 	"tracked03": {
+		"acceleration": 100,
 		"buildPoints": 125,
 		"buildPower": 125,
+		"deceleration": 500,
 		"designable": 1,
+		"hitpoints": 600,
 		"hitpointPctOfBody": 600,
 		"id": "tracked03",
 		"model": "prltrk1.pie",
@@ -315,9 +375,12 @@
 		"weight": 325
 	},
 	"wheeled01": {
+		"acceleration": 100,
 		"buildPoints": 50,
 		"buildPower": 50,
+		"deceleration": 300,
 		"designable": 1,
+		"hitpoints": 100,
 		"hitpointPctOfBody": 100,
 		"id": "wheeled01",
 		"model": "prlwhl1.pie",
@@ -328,9 +391,12 @@
 		"weight": 300
 	},
 	"wheeled02": {
+		"acceleration": 150,
 		"buildPoints": 50,
 		"buildPower": 50,
+		"deceleration": 450,
 		"designable": 1,
+		"hitpoints": 150,
 		"hitpointPctOfBody": 150,
 		"id": "wheeled02",
 		"model": "prlwhl1.pie",
@@ -341,9 +407,12 @@
 		"weight": 225
 	},
 	"wheeled03": {
+		"acceleration": 200,
 		"buildPoints": 50,
 		"buildPower": 50,
+		"deceleration": 600,
 		"designable": 1,
+		"hitpoints": 200,
 		"hitpointPctOfBody": 200,
 		"id": "wheeled03",
 		"model": "prlwhl1.pie",

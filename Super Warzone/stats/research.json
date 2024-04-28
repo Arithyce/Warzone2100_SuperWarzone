@@ -6716,6 +6716,9 @@
 		],
 		"researchPoints": 56600,
 		"researchPower": 450,
+		"resultComponents": [
+			"LasSatCtrl"
+		],
 		"resultStructures": [
 			"A0LasSatCommand"
 		],
@@ -9014,8 +9017,7 @@
 		"techCode": 1
 	},
 	"R-Wpn-Rocket-TankBuster": {
-		"_swMod": null,
-		"_swmd": null,
+		"_wpst": null,
 		"iconID": "IMAGE_RES_WEAPONTECH",
 		"id": "R-Wpn-Rocket-TankBuster",
 		"msgName": "RES_W_RK_TBU",
@@ -9190,9 +9192,23 @@
 		],
 		"statID": "Obliterator"
 	},
+	"R-Wpn-LasSatCtrl": {
+		"iconID": "IMAGE_RES_WEAPONTECH",
+		"id": "R-Wpn-LasSatCtrl",
+		"msgName": "RES_W_LASSATC",
+		"name": "Laser Satellite Control",
+		"requiredResearch": [
+			"R-Wpn-LasSat"
+		],
+		"researchPoints": 35000,
+		"researchPower": 450,
+		"resultComponents": [
+			"LasSatCtrl"
+		],
+		"statID": "LasSatCtrl"
+	},
 	"R-Defense-BBU": {
-		"_swMod": null,
-		"_swmd": null,
+		"_dfst": null,
 		"iconID": "IMAGE_RES_DEFENCE",
 		"id": "R-Defense-BBU",
 		"msgName": "RES_EMP_BBUTOW",
@@ -9335,7 +9351,23 @@
 		],
 		"statID": "Emplacement-Obliterator"
 	},
+	"R-Defense-LasSatCtrl": {
+		"iconID": "IMAGE_RES_DEFENCE",
+		"id": "R-Defense-LasSatCtrl",
+		"msgName": "RES_SITE_LASSATC",
+		"name": "Laser Satellite Control Site",
+		"requiredResearch": [
+			"R-Wpn-LasSatCtrl"
+		],
+		"researchPoints": 35000,
+		"researchPower": 450,
+		"resultStructures": [
+			"Site-LasSatControl"
+		],
+		"statID": "Site-LasSatControl"
+	},
 	"R-Vehicle-Prop-Wheels02": {
+		"prst": null,
 		"iconID": "IMAGE_RES_DROIDTECH",
 		"id": "R-Vehicle-Prop-Wheels02",
 		"msgName": "RES_V_P_W2",

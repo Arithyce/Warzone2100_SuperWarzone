@@ -1,5 +1,9 @@
+finish implementing nukes
+finish implementing nuke research
 finish implementing naval and helicopter research
 finish implementing navy weapons
 implement heli weapons
 implement navy and heli research
 implement navy and heli templates
+implement lassat and nuke upgrades
+implement all other upgrades
