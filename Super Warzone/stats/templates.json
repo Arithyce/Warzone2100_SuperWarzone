@@ -658,7 +658,7 @@
 		"body": "Body1REC",
 		"construct": "Spade1Mk1",
 		"id": "ConstructionDroid",
-		"name": "Truck",
+		"name": "Truck Viper Wheels",
 		"propulsion": "wheeled01",
 		"type": "CONSTRUCT"
 	},
@@ -666,7 +666,7 @@
 		"body": "Body1REC",
 		"construct": "Spade1Mk1",
 		"id": "ConstructorDroid",
-		"name": "Truck",
+		"name": "Truck Viper Wheels",
 		"propulsion": "wheeled01",
 		"type": "CONSTRUCT"
 	},
@@ -2758,6 +2758,5556 @@
 		"id": "WyvernScourgeTracks",
 		"name": "Scourge Missile Wyvern Tracks",
 		"propulsion": "tracked01",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"_propulsion mk2 start": {
+		"body": "ZNULLBODY",
+		"id": "_propulsion mk2 start",
+		"name": "_propulsion mk2 start",
+		"propulsion": "ZNULLPROP",
+		"type": "DROID",
+		"sensor": "ZNULLSENSOR",
+		"weapons": [
+			"ZNULLWEAPON"
+		]
+	},
+	"Mk2-A-Cobra-Hover-HMG": {
+		"body": "Body5REC",
+		"id": "Mk2-A-Cobra-Hover-HMG",
+		"name": "Heavy Machinegun Cobra Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-A-Cobra-Hover-MC": {
+		"body": "Body5REC",
+		"id": "Mk2-A-Cobra-Hover-MC",
+		"name": "Medium Cannon Cobra Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-A-Cobra-Trk-HMG": {
+		"body": "Body5REC",
+		"id": "Mk2-A-Cobra-Trk-HMG",
+		"name": "Heavy Machinegun Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-A-Cobra-Wheels-HMG": {
+		"body": "Body5REC",
+		"id": "Mk2-A-Cobra-Wheels-HMG",
+		"name": "Heavy Machinegun Cobra Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-A-Mantis-Trk-Lancer": {
+		"body": "Body12SUP",
+		"id": "Mk2-A-Mantis-Trk-Lancer",
+		"name": "Lancer Mantis Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-A-Mantis-Trk-Pulse": {
+		"body": "Body12SUP",
+		"id": "Mk2-A-Mantis-Trk-Pulse",
+		"name": "Pulse Laser Mantis Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-A-Mantis-Trk-Rail": {
+		"body": "Body12SUP",
+		"id": "Mk2-A-Mantis-Trk-Rail",
+		"name": "Rail Gun Mantis Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk2-A-Python-Hover-HC": {
+		"body": "Body11ABT",
+		"id": "Mk2-A-Python-Hover-HC",
+		"name": "Heavy Cannon Python Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-A-Python-Hover-MC": {
+		"body": "Body11ABT",
+		"id": "Mk2-A-Python-Hover-MC",
+		"name": "Medium Cannon Python Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-A-Python-Trk-HC": {
+		"body": "Body11ABT",
+		"id": "Mk2-A-Python-Trk-HC",
+		"name": "Heavy Cannon Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-A-Python-Trk-Lancer": {
+		"body": "Body11ABT",
+		"id": "Mk2-A-Python-Trk-Lancer",
+		"name": "Lancer Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-A-Rep-Cobra-Trk": {
+		"body": "Body5REC",
+		"id": "Mk2-A-Rep-Cobra-Trk",
+		"name": "Repair Turret Cobra Tracks",
+		"propulsion": "tracked02",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk2-A-Rep-Mantis-Trk": {
+		"body": "Body12SUP",
+		"id": "Mk2-A-Rep-Mantis-Trk",
+		"name": "Repair Turret Mantis Tracks",
+		"propulsion": "tracked02",
+		"repair": "HeavyRepair",
+		"type": "DROID"
+	},
+	"Mk2-A-Retrib-Trk-Needle": {
+		"body": "Body7ABT",
+		"id": "Mk2-A-Retrib-Trk-Needle",
+		"name": "Needle Gun Retribution Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk2-A-Scorp-Hover-MC": {
+		"body": "Body8MBT",
+		"id": "Mk2-A-Scorp-Hover-MC",
+		"name": "Medium Cannon Scorpion Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-A-Scorp-Trk-MC": {
+		"body": "Body8MBT",
+		"id": "Mk2-A-Scorp-Trk-MC",
+		"name": "Medium Cannon Scorpion Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-A-Tiger-Trk-HC": {
+		"body": "Body9REC",
+		"id": "Mk2-A-Tiger-Trk-HC",
+		"name": "Heavy Cannon Tiger Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-A-Tiger-Trk-Needle": {
+		"body": "Body9REC",
+		"id": "Mk2-A-Tiger-Trk-Needle",
+		"name": "Needle Gun Tiger Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk2-A-Veng-Trk-Guass": {
+		"body": "Body10MBT",
+		"id": "Mk2-A-Veng-Trk-Guass",
+		"name": "Vengeance Tracks Gauss Cannon",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk2-A-Veng-Trk-Needle": {
+		"body": "Body10MBT",
+		"id": "Mk2-A-Veng-Trk-Needle",
+		"name": "Needle Gun Vengeance Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk2-A-Veng-Trk-Rail": {
+		"body": "Body10MBT",
+		"id": "Mk2-A-Veng-Trk-Rail",
+		"name": "Vengeance Tracks Rail Gun",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk2-A-Veng-Trk-Scourge": {
+		"body": "Body10MBT",
+		"id": "Mk2-A-Veng-Trk-Scourge",
+		"name": "Vengeance Tracks Gauss Scourge",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-A-Veng-Trk-TK": {
+		"body": "Body10MBT",
+		"id": "Mk2-A-Veng-Trk-TK",
+		"name": "Tank Killer Vengeance Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-A-Viper-Trk-HMG": {
+		"body": "Body1REC",
+		"id": "Mk2-A-Viper-Trk-HMG",
+		"name": "Heavy Machinegun Viper Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-A-Viper-Trk-MG": {
+		"body": "Body1REC",
+		"id": "Mk2-A-Viper-Trk-MG",
+		"name": "Machinegun Viper Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk2-A-Viper-Trk-TMG": {
+		"body": "Body1REC",
+		"id": "Mk2-A-Viper-Trk-TMG",
+		"name": "Twin Machinegun Viper Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"MG2Mk1"
+		]
+	},
+	"Mk2-A-Viper-Wheels-HMG": {
+		"body": "Body1REC",
+		"id": "Mk2-A-Viper-Wheels-HMG",
+		"name": "Heavy Machinegun Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-A-Viper-Wheels-MG": {
+		"body": "Body1REC",
+		"id": "Mk2-A-Viper-Wheels-MG",
+		"name": "Machinegun Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk2-A-Viper-Wheels-TMG": {
+		"body": "Body1REC",
+		"id": "Mk2-A-Viper-Wheels-TMG",
+		"name": "Twin Machinegun Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"MG2Mk1"
+		]
+	},
+	"Mk2-ASPOTTER": {
+		"body": "CyborgHeavyBody",
+		"id": "Mk2-ASPOTTER",
+		"name": "*SPOTTER*",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-HPV"
+		]
+	},
+	"Mk2-ATESTVTOL": {
+		"body": "Body7ABT",
+		"id": "Mk2-ATESTVTOL",
+		"name": "*TEST VTOL*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk2-BaBaCivilian": {
+		"body": "B1BaBaPerson01",
+		"id": "Mk2-BaBaCivilian",
+		"name": "Civilian",
+		"propulsion": "BaBaLegs",
+		"type": "PERSON"
+	},
+	"Mk2-BaBaPeople": {
+		"body": "B1BaBaPerson01",
+		"id": "Mk2-BaBaPeople",
+		"name": "Scavenger",
+		"propulsion": "BaBaLegs",
+		"type": "PERSON",
+		"weapons": [
+			"BaBaMG"
+		]
+	},
+	"Mk2-BabaBusCan": {
+		"body": "BusBody",
+		"id": "Mk2-BabaBusCan",
+		"name": "School Bus",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BusCannon"
+		]
+	},
+	"Mk2-BabaFireCan": {
+		"body": "FireBody",
+		"id": "Mk2-BabaFireCan",
+		"name": "Cannon Fire Truck",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BusCannon"
+		]
+	},
+	"Mk2-BabaFireTruck": {
+		"body": "FireBody",
+		"id": "Mk2-BabaFireTruck",
+		"name": "Fire Truck",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BabaFlame"
+		]
+	},
+	"Mk2-BabaJeep": {
+		"body": "B2JeepBody",
+		"id": "Mk2-BabaJeep",
+		"name": "Jeep",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BJeepMG"
+		]
+	},
+	"Mk2-BabaPickUp": {
+		"body": "B2RKJeepBody",
+		"construct": "Spade1Mk1",
+		"id": "Mk2-BabaPickUp",
+		"name": "Pick-Up Truck",
+		"type": "CONSTRUCT"
+	},
+	"Mk2-BabaRKJeep": {
+		"body": "B2RKJeepBody",
+		"id": "Mk2-BabaRKJeep",
+		"name": "Rocket Jeep",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BabaRocket"
+		]
+	},
+	"Mk2-BarbarianBuggy": {
+		"body": "B3body-sml-buggy01",
+		"id": "Mk2-BarbarianBuggy",
+		"name": "Buggy",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BuggyMG"
+		]
+	},
+	"Mk2-BarbarianRKBuggy": {
+		"body": "B3bodyRKbuggy01",
+		"id": "Mk2-BarbarianRKBuggy",
+		"name": "Rocket Buggy",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BabaRocket"
+		]
+	},
+	"Mk2-BarbarianTrike": {
+		"body": "B4body-sml-trike01",
+		"id": "Mk2-BarbarianTrike",
+		"name": "Trike",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"bTrikeMG"
+		]
+	},
+	"Mk2-Cobra-Hover-HC": {
+		"body": "Body5REC",
+		"id": "Mk2-Cobra-Hover-HC",
+		"name": "Heavy Cannon Cobra Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-Cobra-Trk-Com": {
+		"body": "Body5REC",
+		"brain": "CommandBrain01",
+		"id": "Mk2-Cobra-Trk-Com",
+		"name": "Command Turret Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk2-CobraBBTracks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraBBTracks",
+		"name": "Bunker Buster Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk2-CobraComHalfTrack02": {
+		"body": "Body5REC",
+		"brain": "CommandBrain01",
+		"id": "Mk2-CobraComHalfTrack02",
+		"name": "Command Turret Cobra Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk2-CobraFlameTracks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraFlameTracks",
+		"name": "Flamer Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Flame1Mk1"
+		]
+	},
+	"Mk2-CobraHMGHalfTrack02": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraHMGHalfTrack02",
+		"name": "Heavy Machinegun Cobra Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-CobraHMGTracks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraHMGTracks",
+		"name": "Heavy Machinegun Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-CobraHRepairHover": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraHRepairHover",
+		"name": "Heavy Repair Turret Cobra Hover",
+		"propulsion": "hover02",
+		"repair": "HeavyRepair",
+		"type": "DROID"
+	},
+	"Mk2-CobraHoverTruck": {
+		"body": "Body5REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk2-CobraHoverTruck",
+		"name": "Truck Cobra Hover",
+		"propulsion": "hover02",
+		"type": "CONSTRUCT"
+	},
+	"Mk2-CobraHvyCnTrks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraHvyCnTrks",
+		"name": "Heavy Cannon Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-CobraHvyMortarHalfTrack02": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraHvyMortarHalfTrack02",
+		"name": "Bombard Cobra Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Mortar2Mk1"
+		]
+	},
+	"Mk2-CobraInfernoHTracks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraInfernoHTracks",
+		"name": "Inferno Cobra Half-Tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Flame2"
+		]
+	},
+	"Mk2-CobraInfernoHover": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraInfernoHover",
+		"name": "Inferno Cobra Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Flame2"
+		]
+	},
+	"Mk2-CobraLtA-THalfTrack02": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraLtA-THalfTrack02",
+		"name": "Lancer Cobra Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-CobraLtCnTrks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraLtCnTrks",
+		"name": "Light Cannon Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk2-CobraMRLHalfTrack02": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraMRLHalfTrack02",
+		"name": "Mini-Rocket Array Cobra Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-MRL"
+		]
+	},
+	"Mk2-CobraMRLTracks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraMRLTracks",
+		"name": "Mini-Rocket Array Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-MRL"
+		]
+	},
+	"Mk2-CobraMedCnHTrks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraMedCnHTrks",
+		"name": "Medium Cannon Cobra Half Track",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-CobraMedCnTrks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraMedCnTrks",
+		"name": "Medium Cannon Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-CobraMortarHalfTrack02": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraMortarHalfTrack02",
+		"name": "Mortar Cobra Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Mortar1Mk1"
+		]
+	},
+	"Mk2-CobraPODHTracks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraPODHTracks",
+		"name": "Mini-Rocket Cobra Half-Tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-Pod"
+		]
+	},
+	"Mk2-CobraPODTracks": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraPODTracks",
+		"name": "Mini-Rocket Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-Pod"
+		]
+	},
+	"Mk2-CobraSensorHalfTrack02": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraSensorHalfTrack02",
+		"name": "Sensor Turret Cobra Half-tracks",
+		"propulsion": "HalfTrack02",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk2-CobraSpadeTracks": {
+		"body": "Body5REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk2-CobraSpadeTracks",
+		"name": "Cobra Truck",
+		"propulsion": "tracked02",
+		"type": "CONSTRUCT"
+	},
+	"Mk2-CobraTrkLancer": {
+		"body": "Body5REC",
+		"id": "Mk2-CobraTrkLancer",
+		"name": "Lancer Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-ConstructionDroid": {
+		"available": true,
+		"body": "Body1REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk2-ConstructionDroid",
+		"name": "Truck Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "CONSTRUCT"
+	},
+	"Mk2-ConstructorDroid": {
+		"body": "Body1REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk2-ConstructorDroid",
+		"name": "Truck Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "CONSTRUCT"
+	},
+	"Mk2-Cyb-Atmiss-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Atmiss-GROUND",
+		"name": "Scourge Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Atmiss"
+		]
+	},
+	"Mk2-Cyb-Cannon-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Cannon-GROUND",
+		"name": "Heavy Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgCannon"
+		]
+	},
+	"Mk2-Cyb-Chain-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Chain-GROUND",
+		"name": "Machinegunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgChaingun"
+		]
+	},
+	"Mk2-Cyb-ComEng": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"construct": "CyborgSpade",
+		"id": "Mk2-Cyb-ComEng",
+		"name": "Combat Engineer Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG_CONSTRUCT"
+	},
+	"Mk2-Cyb-Flamer-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Flamer-GROUND",
+		"name": "Flamer Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgFlamer01"
+		]
+	},
+	"Mk2-Cyb-Gren": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Gren",
+		"name": "Grenadier Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Grenade"
+		]
+	},
+	"Mk2-Cyb-Hvy-A-T": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk2-Cyb-Hvy-A-T",
+		"name": "Super Scourge Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-A-T"
+		]
+	},
+	"Mk2-Cyb-Hvy-Acannon": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk2-Cyb-Hvy-Acannon",
+		"name": "Super Auto-Cannon Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-Acannon"
+		]
+	},
+	"Mk2-Cyb-Hvy-HPV": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk2-Cyb-Hvy-HPV",
+		"name": "Super HVC Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-HPV"
+		]
+	},
+	"Mk2-Cyb-Hvy-Mcannon": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk2-Cyb-Hvy-Mcannon",
+		"name": "Super Heavy-Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-Mcannon"
+		]
+	},
+	"Mk2-Cyb-Hvy-PulseLsr": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk2-Cyb-Hvy-PulseLsr",
+		"name": "Super Pulse Laser Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-PulseLsr"
+		]
+	},
+	"Mk2-Cyb-Hvy-RailGunner": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk2-Cyb-Hvy-RailGunner",
+		"name": "Super Rail-Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-RailGunner"
+		]
+	},
+	"Mk2-Cyb-Hvy-TK": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk2-Cyb-Hvy-TK",
+		"name": "Super Tank-Killer Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-TK"
+		]
+	},
+	"Mk2-Cyb-Laser1-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Laser1-GROUND",
+		"name": "Flashlight Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Laser"
+		]
+	},
+	"Mk2-Cyb-Mechanic": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Mechanic",
+		"name": "Mechanic Cyborg",
+		"propulsion": "CyborgLegs02",
+		"repair": "CyborgRepair",
+		"type": "CYBORG_REPAIR"
+	},
+	"Mk2-Cyb-Rail1-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Rail1-GROUND",
+		"name": "Needle Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Rail1"
+		]
+	},
+	"Mk2-Cyb-Rocket-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Rocket-GROUND",
+		"name": "Lancer Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgRocket"
+		]
+	},
+	"Mk2-Cyb-RotMG-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-RotMG-GROUND",
+		"name": "Assault Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgRotMG"
+		]
+	},
+	"Mk2-Cyb-Thermite": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk2-Cyb-Thermite",
+		"name": "Thermite Flamer Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Thermite"
+		]
+	},
+	"Mk2-CyborgCannon01Grd": {
+		"body": "CyborgLightBody",
+		"id": "Mk2-CyborgCannon01Grd",
+		"name": "Heavy Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgCannon"
+		]
+	},
+	"Mk2-CyborgChain01Ground": {
+		"body": "CyborgLightBody",
+		"id": "Mk2-CyborgChain01Ground",
+		"name": "Machinegunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgChaingun"
+		]
+	},
+	"Mk2-CyborgFlamer01Grd": {
+		"body": "CyborgLightBody",
+		"id": "Mk2-CyborgFlamer01Grd",
+		"name": "Flamer Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgFlamer01"
+		]
+	},
+	"Mk2-CyborgRkt01Ground": {
+		"body": "CyborgLightBody",
+		"id": "Mk2-CyborgRkt01Ground",
+		"name": "Lancer Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgRocket"
+		]
+	},
+	"Mk2-CyborgRotMgGround": {
+		"body": "CyborgLightBody",
+		"id": "Mk2-CyborgRotMgGround",
+		"name": "Assault Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgRotMG"
+		]
+	},
+	"Mk2-Dragon-Hover-SeraphGauss": {
+		"body": "Body14SUP",
+		"id": "Mk2-Dragon-Hover-SeraphGauss",
+		"name": "*SK-Dragon-Hover-SeraphGauss*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-MdArt",
+			"RailGun3Mk1"
+		]
+	},
+	"Mk2-H-Scorp-Trk-HC": {
+		"body": "Body8MBT",
+		"id": "Mk2-H-Scorp-Trk-HC",
+		"name": "Heavy Cannon Scorpion Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-H-Scorp-Trk-Lancer": {
+		"body": "Body8MBT",
+		"id": "Mk2-H-Scorp-Trk-Lancer",
+		"name": "Lancer Scorpion Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-H-Scorp-VTOL-BB": {
+		"body": "Body8MBT",
+		"id": "Mk2-H-Scorp-VTOL-BB",
+		"name": "Bunker Buster Scorpion VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk2-H-Scorp-VTOL-Lancer": {
+		"body": "Body8MBT",
+		"id": "Mk2-H-Scorp-VTOL-Lancer",
+		"name": "Lancer Scorpion VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk2-LeopardHoverPulseLas": {
+		"body": "Body2SUP",
+		"id": "Mk2-LeopardHoverPulseLas",
+		"name": "Pulse Laser Leopard Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-MP-Cyb-ATmiss-GRD": {
+		"body": "CyborgLightBody",
+		"id": "Mk2-MP-Cyb-ATmiss-GRD",
+		"name": "Scourge Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Atmiss"
+		]
+	},
+	"Mk2-MP-Cyb-Laser1-GRD": {
+		"body": "CyborgLightBody",
+		"id": "Mk2-MP-Cyb-Laser1-GRD",
+		"name": "Flashlight Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Laser"
+		]
+	},
+	"Mk2-MP-Cyb-Needle-GRD": {
+		"body": "CyborgLightBody",
+		"id": "Mk2-MP-Cyb-Needle-GRD",
+		"name": "Needle Gunner Cyborg",
+		"propulsion": "CyborgLegs02",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Rail1"
+		]
+	},
+	"Mk2-Mantis-Trk-Com": {
+		"body": "Body12SUP",
+		"brain": "CommandBrain01",
+		"id": "Mk2-Mantis-Trk-Com",
+		"name": "Command Turret Mantis Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk2-MantisBBTracks": {
+		"body": "Body12SUP",
+		"id": "Mk2-MantisBBTracks",
+		"name": "Bunker Buster Mantis Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk2-MantisHoverAC": {
+		"body": "Body12SUP",
+		"id": "Mk2-MantisHoverAC",
+		"name": "Assault Cannon Mantis Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon5VulcanMk1"
+		]
+	},
+	"Mk2-MantisHoverTruck": {
+		"body": "Body12SUP",
+		"construct": "Spade1Mk1",
+		"id": "Mk2-MantisHoverTruck",
+		"name": "Truck Mantis Hover",
+		"propulsion": "hover02",
+		"type": "CONSTRUCT"
+	},
+	"Mk2-MantisScourgeTracks": {
+		"body": "Body12SUP",
+		"id": "Mk2-MantisScourgeTracks",
+		"name": "Scourge Mantis Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-MantisTKTracks": {
+		"body": "Body12SUP",
+		"id": "Mk2-MantisTKTracks",
+		"name": "Tank Killer Mantis Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-MantisTrkHC": {
+		"body": "Body12SUP",
+		"id": "Mk2-MantisTrkHC",
+		"name": "Heavy Cannon Mantis Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-P0CobraFlameTracks": {
+		"body": "Body5REC",
+		"id": "Mk2-P0CobraFlameTracks",
+		"name": "Flamer Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Flame1Mk1"
+		]
+	},
+	"Mk2-P0CobraHvyMGHtrack": {
+		"body": "Body5REC",
+		"id": "Mk2-P0CobraHvyMGHtrack",
+		"name": "Heavy Machinegun Cobra Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-P0CobraLtATRktHtrack": {
+		"body": "Body5REC",
+		"id": "Mk2-P0CobraLtATRktHtrack",
+		"name": "Lancer Cobra Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-P0CobraMedCnTrks": {
+		"body": "Body5REC",
+		"id": "Mk2-P0CobraMedCnTrks",
+		"name": "Medium Cannon Cobra Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-P0CobraRepairTrks": {
+		"body": "Body5REC",
+		"id": "Mk2-P0CobraRepairTrks",
+		"name": "Repair Cobra Tracks",
+		"propulsion": "tracked02",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk2-P0CobraSpadeTracks": {
+		"body": "Body5REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk2-P0CobraSpadeTracks",
+		"name": "Cobra Truck",
+		"propulsion": "tracked02",
+		"type": "CONSTRUCT"
+	},
+	"Mk2-P0PythonComTracks": {
+		"body": "Body11ABT",
+		"brain": "CommandBrain01",
+		"id": "Mk2-P0PythonComTracks",
+		"name": "Command Turret Python Tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk2-P0PythonHvyCnTrks": {
+		"body": "Body11ABT",
+		"id": "Mk2-P0PythonHvyCnTrks",
+		"name": "Heavy Cannon Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-P0cam3CobCONTrk": {
+		"body": "Body5REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk2-P0cam3CobCONTrk",
+		"name": "Truck",
+		"propulsion": "tracked02",
+		"type": "CONSTRUCT"
+	},
+	"Mk2-P0cam3PyAsltGnTrk": {
+		"body": "Body11ABT",
+		"id": "Mk2-P0cam3PyAsltGnTrk",
+		"name": "Assault Gun Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk2-P0cam3PyFlakHT": {
+		"body": "Body11ABT",
+		"id": "Mk2-P0cam3PyFlakHT",
+		"name": "AA Cyclone Flak Cannon Python Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"AAGun2Mk1"
+		]
+	},
+	"Mk2-P0cam3PyHPVcanTrk": {
+		"body": "Body11ABT",
+		"id": "Mk2-P0cam3PyHPVcanTrk",
+		"name": "Hyper Velocity Cannon Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk2-P0cam3PyHvyATTrk": {
+		"body": "Body11ABT",
+		"id": "Mk2-P0cam3PyHvyATTrk",
+		"name": "Tank Killer Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-P6-L-Bomb1-V": {
+		"body": "Body1REC",
+		"id": "Mk2-P6-L-Bomb1-V",
+		"name": "*Skirmish BOMBVTOL*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb1-VTOL-LtHE"
+		]
+	},
+	"Mk2-P6-L-LTAT-V": {
+		"body": "Body1REC",
+		"id": "Mk2-P6-L-LTAT-V",
+		"name": "*Skirmish ATVTOL*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk2-P6-M-QMG1-HT": {
+		"body": "Body5REC",
+		"id": "Mk2-P6-M-QMG1-HT",
+		"name": "*P6-M-QMG1-HT*",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"QuadMg1AAGun"
+		]
+	},
+	"Mk2-PantherHoverPulseLas": {
+		"body": "Body6SUPP",
+		"id": "Mk2-PantherHoverPulseLas",
+		"name": "Pulse Laser Panther Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-PhytonHTrackAssGun": {
+		"body": "Body11ABT",
+		"id": "Mk2-PhytonHTrackAssGun",
+		"name": "Assault Gun Python Half Track",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk2-PhytonHoverAssGun": {
+		"body": "Body11ABT",
+		"id": "Mk2-PhytonHoverAssGun",
+		"name": "Assault Gun Python Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk2-PythonComTracks": {
+		"body": "Body11ABT",
+		"brain": "CommandBrain01",
+		"id": "Mk2-PythonComTracks",
+		"name": "Command Turret Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk2-PythonGaussTracks": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonGaussTracks",
+		"name": "Gauss Cannon Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk2-PythonHoverHVC": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonHoverHVC",
+		"name": "Hyper Velocity Cannon Python Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk2-PythonHoverInferno": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonHoverInferno",
+		"name": "Inferno Python Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Flame2"
+		]
+	},
+	"Mk2-PythonHvyCnTrks": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonHvyCnTrks",
+		"name": "Heavy Cannon Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-PythonLtCnTrks": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonLtCnTrks",
+		"name": "Light Cannon Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk2-PythonMedCanTracks": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonMedCanTracks",
+		"name": "Medium Cannon Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-PythonMedCnTrks": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonMedCnTrks",
+		"name": "Medium Cannon Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-PythonPulseTracks": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonPulseTracks",
+		"name": "Pulse Laser Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-PythonScourgeTracks": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonScourgeTracks",
+		"name": "Scourge Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-PythonTKTracks": {
+		"body": "Body11ABT",
+		"id": "Mk2-PythonTKTracks",
+		"name": "Tank Killer Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-RetreHoverFlashLight": {
+		"body": "Body13SUP",
+		"id": "Mk2-RetreHoverFlashLight",
+		"name": "Flashlight Retribution Hover",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Laser3BEAMMk1"
+		]
+	},
+	"Mk2-SK-Bug-Hover-HMG": {
+		"body": "Body4ABT",
+		"id": "Mk2-SK-Bug-Hover-HMG",
+		"name": "*SK-Bug-Hover-HMG*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-SK-Bug-Hover-Repair": {
+		"body": "Body4ABT",
+		"id": "Mk2-SK-Bug-Hover-Repair",
+		"name": "*SK-Bug-Hover-Repair*",
+		"propulsion": "hover02",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk2-SK-Bug-Hover-Sensor": {
+		"body": "Body4ABT",
+		"id": "Mk2-SK-Bug-Hover-Sensor",
+		"name": "*SK-Bug-Hover-Sensor*",
+		"propulsion": "hover02",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk2-SK-Bug-VTOL-BB": {
+		"body": "Body4ABT",
+		"id": "Mk2-SK-Bug-VTOL-BB",
+		"name": "*SK-Bug-VTOL-BB*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk2-SK-Bug-VTOL-CLBomb": {
+		"body": "Body4ABT",
+		"id": "Mk2-SK-Bug-VTOL-CLBomb",
+		"name": "*SK-Bug-VTOL-CLBomb*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb1-VTOL-LtHE"
+		]
+	},
+	"Mk2-SK-Cobra-Hover-BB": {
+		"body": "Body5REC",
+		"id": "Mk2-SK-Cobra-Hover-BB",
+		"name": "*SK-Cobra-Hover-BB*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk2-SK-Cobra-Hover-HMG": {
+		"body": "Body5REC",
+		"id": "Mk2-SK-Cobra-Hover-HMG",
+		"name": "*SK-Cobra-Hover-HMG*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-SK-Cobra-Hover-Lancer": {
+		"body": "Body5REC",
+		"id": "Mk2-SK-Cobra-Hover-Lancer",
+		"name": "*SK-Cobra-Hover-Lancer*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-SK-Cobra-Track-HVC": {
+		"body": "Body5REC",
+		"id": "Mk2-SK-Cobra-Track-HVC",
+		"name": "*SK-Cobra-Track-HVC*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk2-SK-Cobra-Track-TK": {
+		"body": "Body5REC",
+		"id": "Mk2-SK-Cobra-Track-TK",
+		"name": "*SK-Cobra-Track-TK*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-SK-Leopard-HTrk-ASGun": {
+		"body": "Body2SUP",
+		"id": "Mk2-SK-Leopard-HTrk-ASGun",
+		"name": "*SK-Leopard-HTrk-ASGun*",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk2-SK-Leopard-Hover-Needle": {
+		"body": "Body2SUP",
+		"id": "Mk2-SK-Leopard-Hover-Needle",
+		"name": "*SK-Leopard-Hover-Needle*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk2-SK-Leopard-Hover-Repair": {
+		"body": "Body2SUP",
+		"id": "Mk2-SK-Leopard-Hover-Repair",
+		"name": "*SK-Leopard-Hover-Repair*",
+		"propulsion": "hover02",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk2-SK-Leopard-Hover-Sensor": {
+		"body": "Body2SUP",
+		"id": "Mk2-SK-Leopard-Hover-Sensor",
+		"name": "*SK-Leopard-Hover-Sensor*",
+		"propulsion": "hover02",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk2-SK-Leopard-Htrk-Needle": {
+		"body": "Body2SUP",
+		"id": "Mk2-SK-Leopard-Htrk-Needle",
+		"name": "*SK-Leopard-Htrk-Needle*",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk2-SK-Leopard-Track-Lancer": {
+		"body": "Body2SUP",
+		"id": "Mk2-SK-Leopard-Track-Lancer",
+		"name": "*SK-Leopard-Track-Lancer*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-SK-Leopard-VTOL-BB": {
+		"body": "Body2SUP",
+		"id": "Mk2-SK-Leopard-VTOL-BB",
+		"name": "*SK-Leopard-VTOL-BB*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk2-SK-Leopard-VTOL-PhosBomb": {
+		"body": "Body2SUP",
+		"id": "Mk2-SK-Leopard-VTOL-PhosBomb",
+		"name": "*SK-Leopard-VTOL-PhosBomb*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb3-VTOL-LtINC"
+		]
+	},
+	"Mk2-SK-Mantis-Hover-HVC": {
+		"body": "Body12SUP",
+		"id": "Mk2-SK-Mantis-Hover-HVC",
+		"name": "*SK-Mantis-Hover-HVC*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk2-SK-Mantis-Hover-Hcannon": {
+		"body": "Body12SUP",
+		"id": "Mk2-SK-Mantis-Hover-Hcannon",
+		"name": "*SK-Mantis-Hover-Hcannon*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-SK-Mantis-VTOL-BB": {
+		"body": "Body12SUP",
+		"id": "Mk2-SK-Mantis-VTOL-BB",
+		"name": "*SK-Mantis-VTOL-BB*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk2-SK-Mantis-VTOL-HBB": {
+		"body": "Body12SUP",
+		"id": "Mk2-SK-Mantis-VTOL-HBB",
+		"name": "Heap Bomb Bay Mantis VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb2-VTOL-HvHE"
+		]
+	},
+	"Mk2-SK-Mantis-VTOL-PBB": {
+		"body": "Body12SUP",
+		"id": "Mk2-SK-Mantis-VTOL-PBB",
+		"name": "Phosphor Bomb Bay Mantis VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb3-VTOL-LtINC"
+		]
+	},
+	"Mk2-SK-Panther-Hover-HVC": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-Hover-HVC",
+		"name": "*SK-Panther-Hover-HVC*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk2-SK-Panther-Hover-TK": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-Hover-TK",
+		"name": "*SK-Panther-Hover-TK*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-SK-Panther-Htrk-ASGun": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-Htrk-ASGun",
+		"name": "*SK-Panther-Htrk-ASGun*",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk2-SK-Panther-Htrk-BB": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-Htrk-BB",
+		"name": "*SK-Panther-Htrk-BB*",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk2-SK-Panther-Track-HVC": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-Track-HVC",
+		"name": "*SK-Panther-Track-HVC*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk2-SK-Panther-Track-RailGun": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-Track-RailGun",
+		"name": "*SK-Panther-Track-RailGun*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk2-SK-Panther-Track-Repair": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-Track-Repair",
+		"name": "*SK-Panther-Track-Repair*",
+		"propulsion": "tracked02",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk2-SK-Panther-Track-TK": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-Track-TK",
+		"name": "*SK-Panther-Track-TK*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-SK-Panther-VTOL-BB": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-VTOL-BB",
+		"name": "*SK-Panther-VTOL-BB*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk2-SK-Panther-VTOL-Phosbomb": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-VTOL-Phosbomb",
+		"name": "*SK-Panther-VTOL-Phosbomb*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb3-VTOL-LtINC"
+		]
+	},
+	"Mk2-SK-Panther-VTOL-TK": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-VTOL-TK",
+		"name": "*SK-Panther-VTOL-TK*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-HvyA-T"
+		]
+	},
+	"Mk2-SK-Panther-VTOL-Thermite": {
+		"body": "Body6SUPP",
+		"id": "Mk2-SK-Panther-VTOL-Thermite",
+		"name": "*SK-Panther-VTOL-Thermite*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb4-VTOL-HvyINC"
+		]
+	},
+	"Mk2-SK-Python-Hover-Hcannon": {
+		"body": "Body11ABT",
+		"id": "Mk2-SK-Python-Hover-Hcannon",
+		"name": "*SK-Python-Hover-Hcannon*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-SK-Python-Hover-Lancer": {
+		"body": "Body11ABT",
+		"id": "Mk2-SK-Python-Hover-Lancer",
+		"name": "*SK-Python-Hover-Lancer*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-SK-Python-Hover-Mcannon": {
+		"body": "Body11ABT",
+		"id": "Mk2-SK-Python-Hover-Mcannon",
+		"name": "*SK-Python-Hover-Mcannon*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-SK-Python-Track-Hcannon": {
+		"body": "Body11ABT",
+		"id": "Mk2-SK-Python-Track-Hcannon",
+		"name": "*SK-Python-Track-Hcannon*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-SK-Retal-Hover-Repair": {
+		"body": "Body3MBT",
+		"id": "Mk2-SK-Retal-Hover-Repair",
+		"name": "*SK-Retal-Hover-Repair*",
+		"propulsion": "hover02",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk2-SK-Retal-Hover-Sensor": {
+		"body": "Body3MBT",
+		"id": "Mk2-SK-Retal-Hover-Sensor",
+		"name": "*SK-Retal-Hover-Sensor*",
+		"propulsion": "hover02",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk2-SK-Retal-Track-Needle": {
+		"body": "Body3MBT",
+		"id": "Mk2-SK-Retal-Track-Needle",
+		"name": "*SK-Retal-Track-Needle*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk2-SK-Retal-VTOL-Phosbomb": {
+		"body": "Body3MBT",
+		"id": "Mk2-SK-Retal-VTOL-Phosbomb",
+		"name": "*SK-Retal-VTOL-Phosbomb*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb3-VTOL-LtINC"
+		]
+	},
+	"Mk2-SK-Retal-VTOL-Scourge": {
+		"body": "Body3MBT",
+		"id": "Mk2-SK-Retal-VTOL-Scourge",
+		"name": "Scourge Retaliation VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-VTOL-AT"
+		]
+	},
+	"Mk2-SK-Retre-Hover-RailGun": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-Hover-RailGun",
+		"name": "*SK-Retre-Hover-RailGun*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk2-SK-Retre-Hover-Scourge": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-Hover-Scourge",
+		"name": "*SK-Retre-Hover-Scourge*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-SK-Retre-Htrk-Pepper": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-Htrk-Pepper",
+		"name": "*SK-Retre-Htrk-Pepper*",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Mortar3ROTARYMk1"
+		]
+	},
+	"Mk2-SK-Retre-Track-FlashLight": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-Track-FlashLight",
+		"name": "*SK-Retre-Track-FlashLight*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Laser3BEAMMk1"
+		]
+	},
+	"Mk2-SK-Retre-Track-PulseLsr": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-Track-PulseLsr",
+		"name": "*SK-Retre-Track-PulseLsr*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-SK-Retre-Track-RailGun": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-Track-RailGun",
+		"name": "*SK-Retre-Track-RailGun*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk2-SK-Retre-Track-Scourge": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-Track-Scourge",
+		"name": "*SK-Retre-Track-Scourge*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-SK-Retre-VTOL-HBB": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-VTOL-HBB",
+		"name": "Heap Bomb Bay Retribution VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb2-VTOL-HvHE"
+		]
+	},
+	"Mk2-SK-Retre-VTOL-Plasmite": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-VTOL-Plasmite",
+		"name": "Plasmite Retribution VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb5-VTOL-Plasmite"
+		]
+	},
+	"Mk2-SK-Retre-VTOL-PulseLsr": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-VTOL-PulseLsr",
+		"name": "*SK-Retre-VTOL-PulseLsr*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSE-VTOL"
+		]
+	},
+	"Mk2-SK-Retre-VTOL-Scourge": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-VTOL-Scourge",
+		"name": "*SK-Retre-VTOL-Scourge*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-VTOL-AT"
+		]
+	},
+	"Mk2-SK-Retre-VTOL-Thermite": {
+		"body": "Body7ABT",
+		"id": "Mk2-SK-Retre-VTOL-Thermite",
+		"name": "*SK-Retre-VTOL-Thermite*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb4-VTOL-HvyINC"
+		]
+	},
+	"Mk2-SK-Scorp-Hover-ASGUN": {
+		"body": "Body8MBT",
+		"id": "Mk2-SK-Scorp-Hover-ASGUN",
+		"name": "*SK-Scorp-Hover-ASGUN*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk2-SK-Scorp-Hover-BB": {
+		"body": "Body8MBT",
+		"id": "Mk2-SK-Scorp-Hover-BB",
+		"name": "*SK-Scorp-Hover-BB*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk2-SK-Scorp-Hover-Bombard": {
+		"body": "Body8MBT",
+		"id": "Mk2-SK-Scorp-Hover-Bombard",
+		"name": "*SK-Scorp-Hover-Bombard*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Mortar2Mk1"
+		]
+	},
+	"Mk2-SK-Scorp-Hover-Lancer": {
+		"body": "Body8MBT",
+		"id": "Mk2-SK-Scorp-Hover-Lancer",
+		"name": "*SK-Scorp-Hover-Lancer*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-SK-Scorp-Hover-Mcannon": {
+		"body": "Body8MBT",
+		"id": "Mk2-SK-Scorp-Hover-Mcannon",
+		"name": "*SK-Scorp-Hover-Mcannon*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-SK-Scorpion-VTOL-BB": {
+		"body": "Body8MBT",
+		"id": "Mk2-SK-Scorpion-VTOL-BB",
+		"name": "*SK-Scorpion-VTOL-BB*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk2-SK-Scorpion-VTOL-Hbomb": {
+		"body": "Body8MBT",
+		"id": "Mk2-SK-Scorpion-VTOL-Hbomb",
+		"name": "*SK-Scorpion-VTOL-Hbomb*",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb2-VTOL-HvHE"
+		]
+	},
+	"Mk2-SK-Tiger-Hover-ASCannon": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Hover-ASCannon",
+		"name": "*SK-Tiger-Hover-ASCannon*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon5VulcanMk1"
+		]
+	},
+	"Mk2-SK-Tiger-Hover-Gauss": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Hover-Gauss",
+		"name": "*SK-Tiger-Hover-Gauss*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk2-SK-Tiger-Hover-HVC": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Hover-HVC",
+		"name": "*SK-Tiger-Hover-HVC*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk2-SK-Tiger-Hover-Hcannon": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Hover-Hcannon",
+		"name": "*SK-Tiger-Hover-Hcannon*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-SK-Tiger-Hover-Scourge": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Hover-Scourge",
+		"name": "*SK-Tiger-Hover-Scourge*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-SK-Tiger-Hover-TK": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Hover-TK",
+		"name": "*SK-Tiger-Hover-TK*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-SK-Tiger-Track-ASCannon": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Track-ASCannon",
+		"name": "*SK-Tiger-Track-ASCannon*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon5VulcanMk1"
+		]
+	},
+	"Mk2-SK-Tiger-Track-Gauss": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Track-Gauss",
+		"name": "*SK-Tiger-Track-Gauss*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk2-SK-Tiger-Track-HVC": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Track-HVC",
+		"name": "*SK-Tiger-Track-HVC*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk2-SK-Tiger-Track-Hcannon": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Track-Hcannon",
+		"name": "*SK-Tiger-Track-Hcannon*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-SK-Tiger-Track-Scourge": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Track-Scourge",
+		"name": "*SK-Tiger-Track-Scourge*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-SK-Tiger-Track-TK": {
+		"body": "Body9REC",
+		"id": "Mk2-SK-Tiger-Track-TK",
+		"name": "*SK-Tiger-Track-TK*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-SK-Veng-Hover-Gauss": {
+		"body": "Body10MBT",
+		"id": "Mk2-SK-Veng-Hover-Gauss",
+		"name": "*SK-Veng-Hover-Gauss*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk2-SK-Veng-Hover-PulseLsr": {
+		"body": "Body10MBT",
+		"id": "Mk2-SK-Veng-Hover-PulseLsr",
+		"name": "*SK-Veng-Hover-PulseLsr*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-SK-Veng-Hover-Scourge": {
+		"body": "Body10MBT",
+		"id": "Mk2-SK-Veng-Hover-Scourge",
+		"name": "*SK-Veng-Hover-Scourge*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-SK-Veng-Hover-Seraph": {
+		"body": "Body10MBT",
+		"id": "Mk2-SK-Veng-Hover-Seraph",
+		"name": "*SK-Veng-Hover-Seraph*",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-MdArt"
+		]
+	},
+	"Mk2-SK-Veng-Track-C6TwinAslt": {
+		"body": "Body10MBT",
+		"id": "Mk2-SK-Veng-Track-C6TwinAslt",
+		"name": "*SK-Veng-Track-C6TwinAslt*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon6TwinAslt"
+		]
+	},
+	"Mk2-SK-Veng-Track-Gauss": {
+		"body": "Body10MBT",
+		"id": "Mk2-SK-Veng-Track-Gauss",
+		"name": "*SK-Veng-Track-Gauss*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk2-SK-Veng-Track-HvyLaser": {
+		"body": "Body10MBT",
+		"id": "Mk2-SK-Veng-Track-HvyLaser",
+		"name": "*SK-Veng-Track-HvyLaser*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"HeavyLaser"
+		]
+	},
+	"Mk2-SK-Veng-Track-PulseLsr": {
+		"body": "Body10MBT",
+		"id": "Mk2-SK-Veng-Track-PulseLsr",
+		"name": "*SK-Veng-Track-PulseLsr*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-SK-Veng-Track-Scourge": {
+		"body": "Body10MBT",
+		"id": "Mk2-SK-Veng-Track-Scourge",
+		"name": "*SK-Veng-Track-Scourge*",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-Scorp-Trk-Com": {
+		"body": "Body8MBT",
+		"brain": "CommandBrain01",
+		"id": "Mk2-Scorp-Trk-Com",
+		"name": "Command Turret Scorpion Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk2-ScorpBBTracks": {
+		"body": "Body8MBT",
+		"id": "Mk2-ScorpBBTracks",
+		"name": "Bunker Buster Scorpion Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk2-ScorpHRepairHover": {
+		"body": "Body8MBT",
+		"id": "Mk2-ScorpHRepairHover",
+		"name": "Heavy Repair Scorpion Hover",
+		"propulsion": "hover02",
+		"repair": "HeavyRepair",
+		"type": "DROID"
+	},
+	"Mk2-ScorpHTrackHMG": {
+		"body": "Body8MBT",
+		"id": "Mk2-ScorpHTrackHMG",
+		"name": "Heavy Machinegun Scorpion Half Tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk2-ScorpHoverTruck": {
+		"body": "Body8MBT",
+		"construct": "Spade1Mk1",
+		"id": "Mk2-ScorpHoverTruck",
+		"name": "Truck Scorpion Hover",
+		"propulsion": "hover02",
+		"type": "CONSTRUCT"
+	},
+	"Mk2-ScorpRepairTrk": {
+		"body": "Body8MBT",
+		"id": "Mk2-ScorpRepairTrk",
+		"name": "Repair Scorpion Tracks",
+		"propulsion": "tracked02",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk2-ScorpTrkHMG": {
+		"body": "Body8MBT",
+		"id": "Mk2-ScorpTrkHMG",
+		"name": "Heavy Machinegun Scorpion Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-Scourge-Mantis-H": {
+		"body": "Body12SUP",
+		"id": "Mk2-Scourge-Mantis-H",
+		"name": "Scourge Mantis Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk2-Sk-CobraBBHover": {
+		"body": "Body5REC",
+		"id": "Mk2-Sk-CobraBBHover",
+		"name": "Bunker Buster Cobra Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk2-Sk-PythonHvCanTrack": {
+		"body": "Body11ABT",
+		"id": "Mk2-Sk-PythonHvCanTrack",
+		"name": "Heavy Cannon Python Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk2-SuperTransport": {
+		"available": true,
+		"body": "SuperTransportBody",
+		"id": "Mk2-SuperTransport",
+		"name": "Super Transport",
+		"propulsion": "V-Tol02",
+		"type": "SUPERTRANSPORTER"
+	},
+	"Mk2-TK-Mantis-H": {
+		"body": "Body12SUP",
+		"id": "Mk2-TK-Mantis-H",
+		"name": "Tank Killer Mantis Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk2-TigerHoverPulseLas": {
+		"body": "Body9REC",
+		"id": "Mk2-TigerHoverPulseLas",
+		"name": "Pulse Laser Tiger Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-TigerHoverRailGun": {
+		"body": "Body9REC",
+		"id": "Mk2-TigerHoverRailGun",
+		"name": "Rail Gun Tiger Hover",
+		"propulsion": "hover02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk2-TigerHvLaserTracks": {
+		"body": "Body9REC",
+		"id": "Mk2-TigerHvLaserTracks",
+		"name": "Heavy Laser Tiger Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"HeavyLaser"
+		]
+	},
+	"Mk2-TigerPulseTracks": {
+		"body": "Body9REC",
+		"id": "Mk2-TigerPulseTracks",
+		"name": "Pulse Laser Tiger Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-Transporter": {
+		"available": true,
+		"body": "TransporterBody",
+		"id": "Mk2-Transporter",
+		"name": "Cyborg Transport",
+		"propulsion": "V-Tol02",
+		"type": "TRANSPORTER"
+	},
+	"Mk2-V-Bug-BB": {
+		"body": "Body4ABT",
+		"id": "Mk2-V-Bug-BB",
+		"name": "VTOL Bunker Buster Bug VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk2-V-Bug-ClusterBomb": {
+		"body": "Body4ABT",
+		"id": "Mk2-V-Bug-ClusterBomb",
+		"name": "VTOL Cluster Bomb Bay Bug VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb1-VTOL-LtHE"
+		]
+	},
+	"Mk2-V-Bug-HPV": {
+		"body": "Body4ABT",
+		"id": "Mk2-V-Bug-HPV",
+		"name": "VTOL Hyper Velocity Cannon Bug VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTO-VTOL"
+		]
+	},
+	"Mk2-V-Bug-Lancer": {
+		"body": "Body4ABT",
+		"id": "Mk2-V-Bug-Lancer",
+		"name": "VTOL Lancer Bug VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk2-V-Mantis-HPV": {
+		"body": "Body12SUP",
+		"id": "Mk2-V-Mantis-HPV",
+		"name": "VTOL Hyper Velocity Cannon Mantis VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTO-VTOL"
+		]
+	},
+	"Mk2-V-Mantis-Lancer": {
+		"body": "Body12SUP",
+		"id": "Mk2-V-Mantis-Lancer",
+		"name": "VTOL Lancer Mantis VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk2-V-Scor-BB": {
+		"body": "Body8MBT",
+		"id": "Mk2-V-Scor-BB",
+		"name": "VTOL Bunker Buster Scorpion VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk2-V-Scor-ClusterBomb": {
+		"body": "Body8MBT",
+		"id": "Mk2-V-Scor-ClusterBomb",
+		"name": "VTOL Cluster Bomb Bay Scorpion VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Bomb1-VTOL-LtHE"
+		]
+	},
+	"Mk2-V-Scor-HPV": {
+		"body": "Body8MBT",
+		"id": "Mk2-V-Scor-HPV",
+		"name": "VTOL Hyper Velocity Cannon Scorpion VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTO-VTOL"
+		]
+	},
+	"Mk2-V-Scor-Lancer": {
+		"body": "Body8MBT",
+		"id": "Mk2-V-Scor-Lancer",
+		"name": "VTOL Lancer Scorpion VTOL",
+		"propulsion": "V-Tol02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk2-Viper-Trk-Com": {
+		"body": "Body1REC",
+		"brain": "CommandBrain01",
+		"id": "Mk2-Viper-Trk-Com",
+		"name": "Command Turret Viper Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk2-ViperBBWheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperBBWheels",
+		"name": "Bunker Buster Rockets Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk2-ViperFlameHalfTrack02s": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperFlameHalfTrack02s",
+		"name": "Flamer Viper Half-Tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Flame1Mk1"
+		]
+	},
+	"Mk2-ViperFlameWheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperFlameWheels",
+		"name": "Flamer Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"Flame1Mk1"
+		]
+	},
+	"Mk2-ViperHMGHalfTrack02": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperHMGHalfTrack02",
+		"name": "Heavy Machinegun Viper Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-ViperHMGTracks": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperHMGTracks",
+		"name": "Heavy Machinegun Viper Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-ViperHMGWheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperHMGWheels",
+		"name": "Heavy Machinegun Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk2-ViperLtA-Twheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperLtA-Twheels",
+		"name": "Lancer Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-ViperLtCannonHTracks": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperLtCannonHTracks",
+		"name": "Light Cannon Viper Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk2-ViperLtCannonTracks": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperLtCannonTracks",
+		"name": "Light Cannon Viper Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk2-ViperLtCannonWheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperLtCannonWheels",
+		"name": "Light Cannon Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk2-ViperLtMGHalfTrack02s": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperLtMGHalfTrack02s",
+		"name": "Machinegun Viper Half-Tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk2-ViperMG01Wheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperMG01Wheels",
+		"name": "Machinegun Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk2-ViperMG02HalfTrack02": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperMG02HalfTrack02",
+		"name": "Twin Machinegun Viper Half-tracks",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"MG2Mk1"
+		]
+	},
+	"Mk2-ViperMG02Wheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperMG02Wheels",
+		"name": "Twin Machinegun Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"MG2Mk1"
+		]
+	},
+	"Mk2-ViperMRLHalfTrack02s": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperMRLHalfTrack02s",
+		"name": "Mini-Rocket Array Viper Half Track",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-MRL"
+		]
+	},
+	"Mk2-ViperMRLWheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperMRLWheels",
+		"name": "Mini-Rocket Array Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-MRL"
+		]
+	},
+	"Mk2-ViperMedCnTrks": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperMedCnTrks",
+		"name": "Medium Cannon Viper Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk2-ViperPODHalfTrack02s": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperPODHalfTrack02s",
+		"name": "Mini-Rocket Viper Half Track",
+		"propulsion": "HalfTrack02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-Pod"
+		]
+	},
+	"Mk2-ViperPODWheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperPODWheels",
+		"name": "Mini-Rocket Viper Wheels",
+		"propulsion": "wheeled02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-Pod"
+		]
+	},
+	"Mk2-ViperRepairHalfTrack02": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperRepairHalfTrack02",
+		"name": "Repair Turret Viper Half-track",
+		"propulsion": "HalfTrack02",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk2-ViperRepairWheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperRepairWheels",
+		"name": "Repair Turret Viper Wheels",
+		"propulsion": "wheeled02",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk2-ViperSensorWheels": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperSensorWheels",
+		"name": "Sensor Turret Viper Wheels",
+		"propulsion": "wheeled02",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk2-ViperTrkLancer": {
+		"body": "Body1REC",
+		"id": "Mk2-ViperTrkLancer",
+		"name": "Lancer Viper Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk2-WyvernGaussTracks": {
+		"body": "Body13SUP",
+		"id": "Mk2-WyvernGaussTracks",
+		"name": "Gauss Cannon Wyvern Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk2-WyvernHvLaserTracks": {
+		"body": "Body13SUP",
+		"id": "Mk2-WyvernHvLaserTracks",
+		"name": "Heavy Laser Wyvern Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"HeavyLaser"
+		]
+	},
+	"Mk2-WyvernPlasmaCTracks": {
+		"body": "Body13SUP",
+		"id": "Mk2-WyvernPlasmaCTracks",
+		"name": "Plasma Cannon Wyvern Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Laser4-PlasmaCannon"
+		]
+	},
+	"Mk2-WyvernPulseTracks": {
+		"body": "Body13SUP",
+		"id": "Mk2-WyvernPulseTracks",
+		"name": "Pulse Laser Wyvern Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk2-WyvernScourgeTracks": {
+		"body": "Body13SUP",
+		"id": "Mk2-WyvernScourgeTracks",
+		"name": "Scourge Missile Wyvern Tracks",
+		"propulsion": "tracked02",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"_propulsion mk3 start": {
+		"body": "ZNULLBODY",
+		"id": "_propulsion mk3 start",
+		"name": "_propulsion mk3 start",
+		"propulsion": "ZNULLPROP",
+		"type": "DROID",
+		"sensor": "ZNULLSENSOR",
+		"weapons": [
+			"ZNULLWEAPON"
+		]
+	},
+	"Mk3-A-Cobra-Hover-HMG": {
+		"body": "Body5REC",
+		"id": "Mk3-A-Cobra-Hover-HMG",
+		"name": "Heavy Machinegun Cobra Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-A-Cobra-Hover-MC": {
+		"body": "Body5REC",
+		"id": "Mk3-A-Cobra-Hover-MC",
+		"name": "Medium Cannon Cobra Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-A-Cobra-Trk-HMG": {
+		"body": "Body5REC",
+		"id": "Mk3-A-Cobra-Trk-HMG",
+		"name": "Heavy Machinegun Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-A-Cobra-Wheels-HMG": {
+		"body": "Body5REC",
+		"id": "Mk3-A-Cobra-Wheels-HMG",
+		"name": "Heavy Machinegun Cobra Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-A-Mantis-Trk-Lancer": {
+		"body": "Body12SUP",
+		"id": "Mk3-A-Mantis-Trk-Lancer",
+		"name": "Lancer Mantis Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-A-Mantis-Trk-Pulse": {
+		"body": "Body12SUP",
+		"id": "Mk3-A-Mantis-Trk-Pulse",
+		"name": "Pulse Laser Mantis Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-A-Mantis-Trk-Rail": {
+		"body": "Body12SUP",
+		"id": "Mk3-A-Mantis-Trk-Rail",
+		"name": "Rail Gun Mantis Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk3-A-Python-Hover-HC": {
+		"body": "Body11ABT",
+		"id": "Mk3-A-Python-Hover-HC",
+		"name": "Heavy Cannon Python Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-A-Python-Hover-MC": {
+		"body": "Body11ABT",
+		"id": "Mk3-A-Python-Hover-MC",
+		"name": "Medium Cannon Python Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-A-Python-Trk-HC": {
+		"body": "Body11ABT",
+		"id": "Mk3-A-Python-Trk-HC",
+		"name": "Heavy Cannon Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-A-Python-Trk-Lancer": {
+		"body": "Body11ABT",
+		"id": "Mk3-A-Python-Trk-Lancer",
+		"name": "Lancer Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-A-Rep-Cobra-Trk": {
+		"body": "Body5REC",
+		"id": "Mk3-A-Rep-Cobra-Trk",
+		"name": "Repair Turret Cobra Tracks",
+		"propulsion": "tracked03",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk3-A-Rep-Mantis-Trk": {
+		"body": "Body12SUP",
+		"id": "Mk3-A-Rep-Mantis-Trk",
+		"name": "Repair Turret Mantis Tracks",
+		"propulsion": "tracked03",
+		"repair": "HeavyRepair",
+		"type": "DROID"
+	},
+	"Mk3-A-Retrib-Trk-Needle": {
+		"body": "Body7ABT",
+		"id": "Mk3-A-Retrib-Trk-Needle",
+		"name": "Needle Gun Retribution Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk3-A-Scorp-Hover-MC": {
+		"body": "Body8MBT",
+		"id": "Mk3-A-Scorp-Hover-MC",
+		"name": "Medium Cannon Scorpion Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-A-Scorp-Trk-MC": {
+		"body": "Body8MBT",
+		"id": "Mk3-A-Scorp-Trk-MC",
+		"name": "Medium Cannon Scorpion Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-A-Tiger-Trk-HC": {
+		"body": "Body9REC",
+		"id": "Mk3-A-Tiger-Trk-HC",
+		"name": "Heavy Cannon Tiger Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-A-Tiger-Trk-Needle": {
+		"body": "Body9REC",
+		"id": "Mk3-A-Tiger-Trk-Needle",
+		"name": "Needle Gun Tiger Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk3-A-Veng-Trk-Guass": {
+		"body": "Body10MBT",
+		"id": "Mk3-A-Veng-Trk-Guass",
+		"name": "Vengeance Tracks Gauss Cannon",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk3-A-Veng-Trk-Needle": {
+		"body": "Body10MBT",
+		"id": "Mk3-A-Veng-Trk-Needle",
+		"name": "Needle Gun Vengeance Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk3-A-Veng-Trk-Rail": {
+		"body": "Body10MBT",
+		"id": "Mk3-A-Veng-Trk-Rail",
+		"name": "Vengeance Tracks Rail Gun",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk3-A-Veng-Trk-Scourge": {
+		"body": "Body10MBT",
+		"id": "Mk3-A-Veng-Trk-Scourge",
+		"name": "Vengeance Tracks Gauss Scourge",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-A-Veng-Trk-TK": {
+		"body": "Body10MBT",
+		"id": "Mk3-A-Veng-Trk-TK",
+		"name": "Tank Killer Vengeance Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-A-Viper-Trk-HMG": {
+		"body": "Body1REC",
+		"id": "Mk3-A-Viper-Trk-HMG",
+		"name": "Heavy Machinegun Viper Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-A-Viper-Trk-MG": {
+		"body": "Body1REC",
+		"id": "Mk3-A-Viper-Trk-MG",
+		"name": "Machinegun Viper Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk3-A-Viper-Trk-TMG": {
+		"body": "Body1REC",
+		"id": "Mk3-A-Viper-Trk-TMG",
+		"name": "Twin Machinegun Viper Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"MG2Mk1"
+		]
+	},
+	"Mk3-A-Viper-Wheels-HMG": {
+		"body": "Body1REC",
+		"id": "Mk3-A-Viper-Wheels-HMG",
+		"name": "Heavy Machinegun Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-A-Viper-Wheels-MG": {
+		"body": "Body1REC",
+		"id": "Mk3-A-Viper-Wheels-MG",
+		"name": "Machinegun Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk3-A-Viper-Wheels-TMG": {
+		"body": "Body1REC",
+		"id": "Mk3-A-Viper-Wheels-TMG",
+		"name": "Twin Machinegun Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"MG2Mk1"
+		]
+	},
+	"Mk3-ASPOTTER": {
+		"body": "CyborgHeavyBody",
+		"id": "Mk3-ASPOTTER",
+		"name": "*SPOTTER*",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-HPV"
+		]
+	},
+	"Mk3-ATESTVTOL": {
+		"body": "Body7ABT",
+		"id": "Mk3-ATESTVTOL",
+		"name": "*TEST VTOL*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk3-BaBaCivilian": {
+		"body": "B1BaBaPerson01",
+		"id": "Mk3-BaBaCivilian",
+		"name": "Civilian",
+		"propulsion": "BaBaLegs",
+		"type": "PERSON"
+	},
+	"Mk3-BaBaPeople": {
+		"body": "B1BaBaPerson01",
+		"id": "Mk3-BaBaPeople",
+		"name": "Scavenger",
+		"propulsion": "BaBaLegs",
+		"type": "PERSON",
+		"weapons": [
+			"BaBaMG"
+		]
+	},
+	"Mk3-BabaBusCan": {
+		"body": "BusBody",
+		"id": "Mk3-BabaBusCan",
+		"name": "School Bus",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BusCannon"
+		]
+	},
+	"Mk3-BabaFireCan": {
+		"body": "FireBody",
+		"id": "Mk3-BabaFireCan",
+		"name": "Cannon Fire Truck",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BusCannon"
+		]
+	},
+	"Mk3-BabaFireTruck": {
+		"body": "FireBody",
+		"id": "Mk3-BabaFireTruck",
+		"name": "Fire Truck",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BabaFlame"
+		]
+	},
+	"Mk3-BabaJeep": {
+		"body": "B2JeepBody",
+		"id": "Mk3-BabaJeep",
+		"name": "Jeep",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BJeepMG"
+		]
+	},
+	"Mk3-BabaPickUp": {
+		"body": "B2RKJeepBody",
+		"construct": "Spade1Mk1",
+		"id": "Mk3-BabaPickUp",
+		"name": "Pick-Up Truck",
+		"type": "CONSTRUCT"
+	},
+	"Mk3-BabaRKJeep": {
+		"body": "B2RKJeepBody",
+		"id": "Mk3-BabaRKJeep",
+		"name": "Rocket Jeep",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BabaRocket"
+		]
+	},
+	"Mk3-BarbarianBuggy": {
+		"body": "B3body-sml-buggy01",
+		"id": "Mk3-BarbarianBuggy",
+		"name": "Buggy",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BuggyMG"
+		]
+	},
+	"Mk3-BarbarianRKBuggy": {
+		"body": "B3bodyRKbuggy01",
+		"id": "Mk3-BarbarianRKBuggy",
+		"name": "Rocket Buggy",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"BabaRocket"
+		]
+	},
+	"Mk3-BarbarianTrike": {
+		"body": "B4body-sml-trike01",
+		"id": "Mk3-BarbarianTrike",
+		"name": "Trike",
+		"propulsion": "BaBaProp",
+		"type": "DROID",
+		"weapons": [
+			"bTrikeMG"
+		]
+	},
+	"Mk3-Cobra-Hover-HC": {
+		"body": "Body5REC",
+		"id": "Mk3-Cobra-Hover-HC",
+		"name": "Heavy Cannon Cobra Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-Cobra-Trk-Com": {
+		"body": "Body5REC",
+		"brain": "CommandBrain01",
+		"id": "Mk3-Cobra-Trk-Com",
+		"name": "Command Turret Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk3-CobraBBTracks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraBBTracks",
+		"name": "Bunker Buster Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk3-CobraComHalfTrack03": {
+		"body": "Body5REC",
+		"brain": "CommandBrain01",
+		"id": "Mk3-CobraComHalfTrack03",
+		"name": "Command Turret Cobra Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk3-CobraFlameTracks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraFlameTracks",
+		"name": "Flamer Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Flame1Mk1"
+		]
+	},
+	"Mk3-CobraHMGHalfTrack03": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraHMGHalfTrack03",
+		"name": "Heavy Machinegun Cobra Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-CobraHMGTracks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraHMGTracks",
+		"name": "Heavy Machinegun Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-CobraHRepairHover": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraHRepairHover",
+		"name": "Heavy Repair Turret Cobra Hover",
+		"propulsion": "hover03",
+		"repair": "HeavyRepair",
+		"type": "DROID"
+	},
+	"Mk3-CobraHoverTruck": {
+		"body": "Body5REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk3-CobraHoverTruck",
+		"name": "Truck Cobra Hover",
+		"propulsion": "hover03",
+		"type": "CONSTRUCT"
+	},
+	"Mk3-CobraHvyCnTrks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraHvyCnTrks",
+		"name": "Heavy Cannon Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-CobraHvyMortarHalfTrack03": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraHvyMortarHalfTrack03",
+		"name": "Bombard Cobra Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Mortar2Mk1"
+		]
+	},
+	"Mk3-CobraInfernoHTracks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraInfernoHTracks",
+		"name": "Inferno Cobra Half-Tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Flame2"
+		]
+	},
+	"Mk3-CobraInfernoHover": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraInfernoHover",
+		"name": "Inferno Cobra Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Flame2"
+		]
+	},
+	"Mk3-CobraLtA-THalfTrack03": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraLtA-THalfTrack03",
+		"name": "Lancer Cobra Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-CobraLtCnTrks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraLtCnTrks",
+		"name": "Light Cannon Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk3-CobraMRLHalfTrack03": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraMRLHalfTrack03",
+		"name": "Mini-Rocket Array Cobra Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-MRL"
+		]
+	},
+	"Mk3-CobraMRLTracks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraMRLTracks",
+		"name": "Mini-Rocket Array Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-MRL"
+		]
+	},
+	"Mk3-CobraMedCnHTrks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraMedCnHTrks",
+		"name": "Medium Cannon Cobra Half Track",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-CobraMedCnTrks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraMedCnTrks",
+		"name": "Medium Cannon Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-CobraMortarHalfTrack03": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraMortarHalfTrack03",
+		"name": "Mortar Cobra Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Mortar1Mk1"
+		]
+	},
+	"Mk3-CobraPODHTracks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraPODHTracks",
+		"name": "Mini-Rocket Cobra Half-Tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-Pod"
+		]
+	},
+	"Mk3-CobraPODTracks": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraPODTracks",
+		"name": "Mini-Rocket Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-Pod"
+		]
+	},
+	"Mk3-CobraSensorHalfTrack03": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraSensorHalfTrack03",
+		"name": "Sensor Turret Cobra Half-tracks",
+		"propulsion": "HalfTrack03",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk3-CobraSpadeTracks": {
+		"body": "Body5REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk3-CobraSpadeTracks",
+		"name": "Cobra Truck",
+		"propulsion": "tracked03",
+		"type": "CONSTRUCT"
+	},
+	"Mk3-CobraTrkLancer": {
+		"body": "Body5REC",
+		"id": "Mk3-CobraTrkLancer",
+		"name": "Lancer Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-ConstructionDroid": {
+		"available": true,
+		"body": "Body1REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk3-ConstructionDroid",
+		"name": "Truck Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "CONSTRUCT"
+	},
+	"Mk3-ConstructorDroid": {
+		"body": "Body1REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk3-ConstructorDroid",
+		"name": "Truck Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "CONSTRUCT"
+	},
+	"Mk3-Cyb-Atmiss-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Atmiss-GROUND",
+		"name": "Scourge Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Atmiss"
+		]
+	},
+	"Mk3-Cyb-Cannon-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Cannon-GROUND",
+		"name": "Heavy Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgCannon"
+		]
+	},
+	"Mk3-Cyb-Chain-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Chain-GROUND",
+		"name": "Machinegunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgChaingun"
+		]
+	},
+	"Mk3-Cyb-ComEng": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"construct": "CyborgSpade",
+		"id": "Mk3-Cyb-ComEng",
+		"name": "Combat Engineer Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG_CONSTRUCT"
+	},
+	"Mk3-Cyb-Flamer-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Flamer-GROUND",
+		"name": "Flamer Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgFlamer01"
+		]
+	},
+	"Mk3-Cyb-Gren": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Gren",
+		"name": "Grenadier Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Grenade"
+		]
+	},
+	"Mk3-Cyb-Hvy-A-T": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk3-Cyb-Hvy-A-T",
+		"name": "Super Scourge Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-A-T"
+		]
+	},
+	"Mk3-Cyb-Hvy-Acannon": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk3-Cyb-Hvy-Acannon",
+		"name": "Super Auto-Cannon Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-Acannon"
+		]
+	},
+	"Mk3-Cyb-Hvy-HPV": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk3-Cyb-Hvy-HPV",
+		"name": "Super HVC Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-HPV"
+		]
+	},
+	"Mk3-Cyb-Hvy-Mcannon": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk3-Cyb-Hvy-Mcannon",
+		"name": "Super Heavy-Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-Mcannon"
+		]
+	},
+	"Mk3-Cyb-Hvy-PulseLsr": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk3-Cyb-Hvy-PulseLsr",
+		"name": "Super Pulse Laser Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-PulseLsr"
+		]
+	},
+	"Mk3-Cyb-Hvy-RailGunner": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk3-Cyb-Hvy-RailGunner",
+		"name": "Super Rail-Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-RailGunner"
+		]
+	},
+	"Mk3-Cyb-Hvy-TK": {
+		"available": true,
+		"body": "CyborgHeavyBody",
+		"id": "Mk3-Cyb-Hvy-TK",
+		"name": "Super Tank-Killer Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG_SUPER",
+		"weapons": [
+			"Cyb-Hvywpn-TK"
+		]
+	},
+	"Mk3-Cyb-Laser1-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Laser1-GROUND",
+		"name": "Flashlight Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Laser"
+		]
+	},
+	"Mk3-Cyb-Mechanic": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Mechanic",
+		"name": "Mechanic Cyborg",
+		"propulsion": "CyborgLegs03",
+		"repair": "CyborgRepair",
+		"type": "CYBORG_REPAIR"
+	},
+	"Mk3-Cyb-Rail1-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Rail1-GROUND",
+		"name": "Needle Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Rail1"
+		]
+	},
+	"Mk3-Cyb-Rocket-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Rocket-GROUND",
+		"name": "Lancer Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgRocket"
+		]
+	},
+	"Mk3-Cyb-RotMG-GROUND": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-RotMG-GROUND",
+		"name": "Assault Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgRotMG"
+		]
+	},
+	"Mk3-Cyb-Thermite": {
+		"available": true,
+		"body": "CyborgLightBody",
+		"id": "Mk3-Cyb-Thermite",
+		"name": "Thermite Flamer Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Thermite"
+		]
+	},
+	"Mk3-CyborgCannon01Grd": {
+		"body": "CyborgLightBody",
+		"id": "Mk3-CyborgCannon01Grd",
+		"name": "Heavy Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgCannon"
+		]
+	},
+	"Mk3-CyborgChain01Ground": {
+		"body": "CyborgLightBody",
+		"id": "Mk3-CyborgChain01Ground",
+		"name": "Machinegunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgChaingun"
+		]
+	},
+	"Mk3-CyborgFlamer01Grd": {
+		"body": "CyborgLightBody",
+		"id": "Mk3-CyborgFlamer01Grd",
+		"name": "Flamer Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgFlamer01"
+		]
+	},
+	"Mk3-CyborgRkt01Ground": {
+		"body": "CyborgLightBody",
+		"id": "Mk3-CyborgRkt01Ground",
+		"name": "Lancer Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgRocket"
+		]
+	},
+	"Mk3-CyborgRotMgGround": {
+		"body": "CyborgLightBody",
+		"id": "Mk3-CyborgRotMgGround",
+		"name": "Assault Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"CyborgRotMG"
+		]
+	},
+	"Mk3-Dragon-Hover-SeraphGauss": {
+		"body": "Body14SUP",
+		"id": "Mk3-Dragon-Hover-SeraphGauss",
+		"name": "*SK-Dragon-Hover-SeraphGauss*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-MdArt",
+			"RailGun3Mk1"
+		]
+	},
+	"Mk3-H-Scorp-Trk-HC": {
+		"body": "Body8MBT",
+		"id": "Mk3-H-Scorp-Trk-HC",
+		"name": "Heavy Cannon Scorpion Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-H-Scorp-Trk-Lancer": {
+		"body": "Body8MBT",
+		"id": "Mk3-H-Scorp-Trk-Lancer",
+		"name": "Lancer Scorpion Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-H-Scorp-VTOL-BB": {
+		"body": "Body8MBT",
+		"id": "Mk3-H-Scorp-VTOL-BB",
+		"name": "Bunker Buster Scorpion VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk3-H-Scorp-VTOL-Lancer": {
+		"body": "Body8MBT",
+		"id": "Mk3-H-Scorp-VTOL-Lancer",
+		"name": "Lancer Scorpion VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk3-LeopardHoverPulseLas": {
+		"body": "Body2SUP",
+		"id": "Mk3-LeopardHoverPulseLas",
+		"name": "Pulse Laser Leopard Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-MP-Cyb-ATmiss-GRD": {
+		"body": "CyborgLightBody",
+		"id": "Mk3-MP-Cyb-ATmiss-GRD",
+		"name": "Scourge Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Atmiss"
+		]
+	},
+	"Mk3-MP-Cyb-Laser1-GRD": {
+		"body": "CyborgLightBody",
+		"id": "Mk3-MP-Cyb-Laser1-GRD",
+		"name": "Flashlight Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Laser"
+		]
+	},
+	"Mk3-MP-Cyb-Needle-GRD": {
+		"body": "CyborgLightBody",
+		"id": "Mk3-MP-Cyb-Needle-GRD",
+		"name": "Needle Gunner Cyborg",
+		"propulsion": "CyborgLegs03",
+		"type": "CYBORG",
+		"weapons": [
+			"Cyb-Wpn-Rail1"
+		]
+	},
+	"Mk3-Mantis-Trk-Com": {
+		"body": "Body12SUP",
+		"brain": "CommandBrain01",
+		"id": "Mk3-Mantis-Trk-Com",
+		"name": "Command Turret Mantis Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk3-MantisBBTracks": {
+		"body": "Body12SUP",
+		"id": "Mk3-MantisBBTracks",
+		"name": "Bunker Buster Mantis Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk3-MantisHoverAC": {
+		"body": "Body12SUP",
+		"id": "Mk3-MantisHoverAC",
+		"name": "Assault Cannon Mantis Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon5VulcanMk1"
+		]
+	},
+	"Mk3-MantisHoverTruck": {
+		"body": "Body12SUP",
+		"construct": "Spade1Mk1",
+		"id": "Mk3-MantisHoverTruck",
+		"name": "Truck Mantis Hover",
+		"propulsion": "hover03",
+		"type": "CONSTRUCT"
+	},
+	"Mk3-MantisScourgeTracks": {
+		"body": "Body12SUP",
+		"id": "Mk3-MantisScourgeTracks",
+		"name": "Scourge Mantis Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-MantisTKTracks": {
+		"body": "Body12SUP",
+		"id": "Mk3-MantisTKTracks",
+		"name": "Tank Killer Mantis Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-MantisTrkHC": {
+		"body": "Body12SUP",
+		"id": "Mk3-MantisTrkHC",
+		"name": "Heavy Cannon Mantis Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-P0CobraFlameTracks": {
+		"body": "Body5REC",
+		"id": "Mk3-P0CobraFlameTracks",
+		"name": "Flamer Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Flame1Mk1"
+		]
+	},
+	"Mk3-P0CobraHvyMGHtrack": {
+		"body": "Body5REC",
+		"id": "Mk3-P0CobraHvyMGHtrack",
+		"name": "Heavy Machinegun Cobra Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-P0CobraLtATRktHtrack": {
+		"body": "Body5REC",
+		"id": "Mk3-P0CobraLtATRktHtrack",
+		"name": "Lancer Cobra Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-P0CobraMedCnTrks": {
+		"body": "Body5REC",
+		"id": "Mk3-P0CobraMedCnTrks",
+		"name": "Medium Cannon Cobra Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-P0CobraRepairTrks": {
+		"body": "Body5REC",
+		"id": "Mk3-P0CobraRepairTrks",
+		"name": "Repair Cobra Tracks",
+		"propulsion": "tracked03",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk3-P0CobraSpadeTracks": {
+		"body": "Body5REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk3-P0CobraSpadeTracks",
+		"name": "Cobra Truck",
+		"propulsion": "tracked03",
+		"type": "CONSTRUCT"
+	},
+	"Mk3-P0PythonComTracks": {
+		"body": "Body11ABT",
+		"brain": "CommandBrain01",
+		"id": "Mk3-P0PythonComTracks",
+		"name": "Command Turret Python Tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk3-P0PythonHvyCnTrks": {
+		"body": "Body11ABT",
+		"id": "Mk3-P0PythonHvyCnTrks",
+		"name": "Heavy Cannon Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-P0cam3CobCONTrk": {
+		"body": "Body5REC",
+		"construct": "Spade1Mk1",
+		"id": "Mk3-P0cam3CobCONTrk",
+		"name": "Truck",
+		"propulsion": "tracked03",
+		"type": "CONSTRUCT"
+	},
+	"Mk3-P0cam3PyAsltGnTrk": {
+		"body": "Body11ABT",
+		"id": "Mk3-P0cam3PyAsltGnTrk",
+		"name": "Assault Gun Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk3-P0cam3PyFlakHT": {
+		"body": "Body11ABT",
+		"id": "Mk3-P0cam3PyFlakHT",
+		"name": "AA Cyclone Flak Cannon Python Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"AAGun2Mk1"
+		]
+	},
+	"Mk3-P0cam3PyHPVcanTrk": {
+		"body": "Body11ABT",
+		"id": "Mk3-P0cam3PyHPVcanTrk",
+		"name": "Hyper Velocity Cannon Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk3-P0cam3PyHvyATTrk": {
+		"body": "Body11ABT",
+		"id": "Mk3-P0cam3PyHvyATTrk",
+		"name": "Tank Killer Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-P6-L-Bomb1-V": {
+		"body": "Body1REC",
+		"id": "Mk3-P6-L-Bomb1-V",
+		"name": "*Skirmish BOMBVTOL*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb1-VTOL-LtHE"
+		]
+	},
+	"Mk3-P6-L-LTAT-V": {
+		"body": "Body1REC",
+		"id": "Mk3-P6-L-LTAT-V",
+		"name": "*Skirmish ATVTOL*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk3-P6-M-QMG1-HT": {
+		"body": "Body5REC",
+		"id": "Mk3-P6-M-QMG1-HT",
+		"name": "*P6-M-QMG1-HT*",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"QuadMg1AAGun"
+		]
+	},
+	"Mk3-PantherHoverPulseLas": {
+		"body": "Body6SUPP",
+		"id": "Mk3-PantherHoverPulseLas",
+		"name": "Pulse Laser Panther Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-PhytonHTrackAssGun": {
+		"body": "Body11ABT",
+		"id": "Mk3-PhytonHTrackAssGun",
+		"name": "Assault Gun Python Half Track",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk3-PhytonHoverAssGun": {
+		"body": "Body11ABT",
+		"id": "Mk3-PhytonHoverAssGun",
+		"name": "Assault Gun Python Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk3-PythonComTracks": {
+		"body": "Body11ABT",
+		"brain": "CommandBrain01",
+		"id": "Mk3-PythonComTracks",
+		"name": "Command Turret Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk3-PythonGaussTracks": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonGaussTracks",
+		"name": "Gauss Cannon Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk3-PythonHoverHVC": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonHoverHVC",
+		"name": "Hyper Velocity Cannon Python Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk3-PythonHoverInferno": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonHoverInferno",
+		"name": "Inferno Python Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Flame2"
+		]
+	},
+	"Mk3-PythonHvyCnTrks": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonHvyCnTrks",
+		"name": "Heavy Cannon Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-PythonLtCnTrks": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonLtCnTrks",
+		"name": "Light Cannon Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk3-PythonMedCanTracks": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonMedCanTracks",
+		"name": "Medium Cannon Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-PythonMedCnTrks": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonMedCnTrks",
+		"name": "Medium Cannon Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-PythonPulseTracks": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonPulseTracks",
+		"name": "Pulse Laser Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-PythonScourgeTracks": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonScourgeTracks",
+		"name": "Scourge Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-PythonTKTracks": {
+		"body": "Body11ABT",
+		"id": "Mk3-PythonTKTracks",
+		"name": "Tank Killer Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-RetreHoverFlashLight": {
+		"body": "Body13SUP",
+		"id": "Mk3-RetreHoverFlashLight",
+		"name": "Flashlight Retribution Hover",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Laser3BEAMMk1"
+		]
+	},
+	"Mk3-SK-Bug-Hover-HMG": {
+		"body": "Body4ABT",
+		"id": "Mk3-SK-Bug-Hover-HMG",
+		"name": "*SK-Bug-Hover-HMG*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-SK-Bug-Hover-Repair": {
+		"body": "Body4ABT",
+		"id": "Mk3-SK-Bug-Hover-Repair",
+		"name": "*SK-Bug-Hover-Repair*",
+		"propulsion": "hover03",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk3-SK-Bug-Hover-Sensor": {
+		"body": "Body4ABT",
+		"id": "Mk3-SK-Bug-Hover-Sensor",
+		"name": "*SK-Bug-Hover-Sensor*",
+		"propulsion": "hover03",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk3-SK-Bug-VTOL-BB": {
+		"body": "Body4ABT",
+		"id": "Mk3-SK-Bug-VTOL-BB",
+		"name": "*SK-Bug-VTOL-BB*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk3-SK-Bug-VTOL-CLBomb": {
+		"body": "Body4ABT",
+		"id": "Mk3-SK-Bug-VTOL-CLBomb",
+		"name": "*SK-Bug-VTOL-CLBomb*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb1-VTOL-LtHE"
+		]
+	},
+	"Mk3-SK-Cobra-Hover-BB": {
+		"body": "Body5REC",
+		"id": "Mk3-SK-Cobra-Hover-BB",
+		"name": "*SK-Cobra-Hover-BB*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk3-SK-Cobra-Hover-HMG": {
+		"body": "Body5REC",
+		"id": "Mk3-SK-Cobra-Hover-HMG",
+		"name": "*SK-Cobra-Hover-HMG*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-SK-Cobra-Hover-Lancer": {
+		"body": "Body5REC",
+		"id": "Mk3-SK-Cobra-Hover-Lancer",
+		"name": "*SK-Cobra-Hover-Lancer*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-SK-Cobra-Track-HVC": {
+		"body": "Body5REC",
+		"id": "Mk3-SK-Cobra-Track-HVC",
+		"name": "*SK-Cobra-Track-HVC*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk3-SK-Cobra-Track-TK": {
+		"body": "Body5REC",
+		"id": "Mk3-SK-Cobra-Track-TK",
+		"name": "*SK-Cobra-Track-TK*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-SK-Leopard-HTrk-ASGun": {
+		"body": "Body2SUP",
+		"id": "Mk3-SK-Leopard-HTrk-ASGun",
+		"name": "*SK-Leopard-HTrk-ASGun*",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk3-SK-Leopard-Hover-Needle": {
+		"body": "Body2SUP",
+		"id": "Mk3-SK-Leopard-Hover-Needle",
+		"name": "*SK-Leopard-Hover-Needle*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk3-SK-Leopard-Hover-Repair": {
+		"body": "Body2SUP",
+		"id": "Mk3-SK-Leopard-Hover-Repair",
+		"name": "*SK-Leopard-Hover-Repair*",
+		"propulsion": "hover03",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk3-SK-Leopard-Hover-Sensor": {
+		"body": "Body2SUP",
+		"id": "Mk3-SK-Leopard-Hover-Sensor",
+		"name": "*SK-Leopard-Hover-Sensor*",
+		"propulsion": "hover03",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk3-SK-Leopard-Htrk-Needle": {
+		"body": "Body2SUP",
+		"id": "Mk3-SK-Leopard-Htrk-Needle",
+		"name": "*SK-Leopard-Htrk-Needle*",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk3-SK-Leopard-Track-Lancer": {
+		"body": "Body2SUP",
+		"id": "Mk3-SK-Leopard-Track-Lancer",
+		"name": "*SK-Leopard-Track-Lancer*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-SK-Leopard-VTOL-BB": {
+		"body": "Body2SUP",
+		"id": "Mk3-SK-Leopard-VTOL-BB",
+		"name": "*SK-Leopard-VTOL-BB*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk3-SK-Leopard-VTOL-PhosBomb": {
+		"body": "Body2SUP",
+		"id": "Mk3-SK-Leopard-VTOL-PhosBomb",
+		"name": "*SK-Leopard-VTOL-PhosBomb*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb3-VTOL-LtINC"
+		]
+	},
+	"Mk3-SK-Mantis-Hover-HVC": {
+		"body": "Body12SUP",
+		"id": "Mk3-SK-Mantis-Hover-HVC",
+		"name": "*SK-Mantis-Hover-HVC*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk3-SK-Mantis-Hover-Hcannon": {
+		"body": "Body12SUP",
+		"id": "Mk3-SK-Mantis-Hover-Hcannon",
+		"name": "*SK-Mantis-Hover-Hcannon*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-SK-Mantis-VTOL-BB": {
+		"body": "Body12SUP",
+		"id": "Mk3-SK-Mantis-VTOL-BB",
+		"name": "*SK-Mantis-VTOL-BB*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk3-SK-Mantis-VTOL-HBB": {
+		"body": "Body12SUP",
+		"id": "Mk3-SK-Mantis-VTOL-HBB",
+		"name": "Heap Bomb Bay Mantis VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb2-VTOL-HvHE"
+		]
+	},
+	"Mk3-SK-Mantis-VTOL-PBB": {
+		"body": "Body12SUP",
+		"id": "Mk3-SK-Mantis-VTOL-PBB",
+		"name": "Phosphor Bomb Bay Mantis VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb3-VTOL-LtINC"
+		]
+	},
+	"Mk3-SK-Panther-Hover-HVC": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-Hover-HVC",
+		"name": "*SK-Panther-Hover-HVC*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk3-SK-Panther-Hover-TK": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-Hover-TK",
+		"name": "*SK-Panther-Hover-TK*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-SK-Panther-Htrk-ASGun": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-Htrk-ASGun",
+		"name": "*SK-Panther-Htrk-ASGun*",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk3-SK-Panther-Htrk-BB": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-Htrk-BB",
+		"name": "*SK-Panther-Htrk-BB*",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk3-SK-Panther-Track-HVC": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-Track-HVC",
+		"name": "*SK-Panther-Track-HVC*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk3-SK-Panther-Track-RailGun": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-Track-RailGun",
+		"name": "*SK-Panther-Track-RailGun*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk3-SK-Panther-Track-Repair": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-Track-Repair",
+		"name": "*SK-Panther-Track-Repair*",
+		"propulsion": "tracked03",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk3-SK-Panther-Track-TK": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-Track-TK",
+		"name": "*SK-Panther-Track-TK*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-SK-Panther-VTOL-BB": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-VTOL-BB",
+		"name": "*SK-Panther-VTOL-BB*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk3-SK-Panther-VTOL-Phosbomb": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-VTOL-Phosbomb",
+		"name": "*SK-Panther-VTOL-Phosbomb*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb3-VTOL-LtINC"
+		]
+	},
+	"Mk3-SK-Panther-VTOL-TK": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-VTOL-TK",
+		"name": "*SK-Panther-VTOL-TK*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-HvyA-T"
+		]
+	},
+	"Mk3-SK-Panther-VTOL-Thermite": {
+		"body": "Body6SUPP",
+		"id": "Mk3-SK-Panther-VTOL-Thermite",
+		"name": "*SK-Panther-VTOL-Thermite*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb4-VTOL-HvyINC"
+		]
+	},
+	"Mk3-SK-Python-Hover-Hcannon": {
+		"body": "Body11ABT",
+		"id": "Mk3-SK-Python-Hover-Hcannon",
+		"name": "*SK-Python-Hover-Hcannon*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-SK-Python-Hover-Lancer": {
+		"body": "Body11ABT",
+		"id": "Mk3-SK-Python-Hover-Lancer",
+		"name": "*SK-Python-Hover-Lancer*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-SK-Python-Hover-Mcannon": {
+		"body": "Body11ABT",
+		"id": "Mk3-SK-Python-Hover-Mcannon",
+		"name": "*SK-Python-Hover-Mcannon*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-SK-Python-Track-Hcannon": {
+		"body": "Body11ABT",
+		"id": "Mk3-SK-Python-Track-Hcannon",
+		"name": "*SK-Python-Track-Hcannon*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-SK-Retal-Hover-Repair": {
+		"body": "Body3MBT",
+		"id": "Mk3-SK-Retal-Hover-Repair",
+		"name": "*SK-Retal-Hover-Repair*",
+		"propulsion": "hover03",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk3-SK-Retal-Hover-Sensor": {
+		"body": "Body3MBT",
+		"id": "Mk3-SK-Retal-Hover-Sensor",
+		"name": "*SK-Retal-Hover-Sensor*",
+		"propulsion": "hover03",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk3-SK-Retal-Track-Needle": {
+		"body": "Body3MBT",
+		"id": "Mk3-SK-Retal-Track-Needle",
+		"name": "*SK-Retal-Track-Needle*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun1Mk1"
+		]
+	},
+	"Mk3-SK-Retal-VTOL-Phosbomb": {
+		"body": "Body3MBT",
+		"id": "Mk3-SK-Retal-VTOL-Phosbomb",
+		"name": "*SK-Retal-VTOL-Phosbomb*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb3-VTOL-LtINC"
+		]
+	},
+	"Mk3-SK-Retal-VTOL-Scourge": {
+		"body": "Body3MBT",
+		"id": "Mk3-SK-Retal-VTOL-Scourge",
+		"name": "Scourge Retaliation VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-VTOL-AT"
+		]
+	},
+	"Mk3-SK-Retre-Hover-RailGun": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-Hover-RailGun",
+		"name": "*SK-Retre-Hover-RailGun*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk3-SK-Retre-Hover-Scourge": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-Hover-Scourge",
+		"name": "*SK-Retre-Hover-Scourge*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-SK-Retre-Htrk-Pepper": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-Htrk-Pepper",
+		"name": "*SK-Retre-Htrk-Pepper*",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Mortar3ROTARYMk1"
+		]
+	},
+	"Mk3-SK-Retre-Track-FlashLight": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-Track-FlashLight",
+		"name": "*SK-Retre-Track-FlashLight*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Laser3BEAMMk1"
+		]
+	},
+	"Mk3-SK-Retre-Track-PulseLsr": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-Track-PulseLsr",
+		"name": "*SK-Retre-Track-PulseLsr*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-SK-Retre-Track-RailGun": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-Track-RailGun",
+		"name": "*SK-Retre-Track-RailGun*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk3-SK-Retre-Track-Scourge": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-Track-Scourge",
+		"name": "*SK-Retre-Track-Scourge*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-SK-Retre-VTOL-HBB": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-VTOL-HBB",
+		"name": "Heap Bomb Bay Retribution VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb2-VTOL-HvHE"
+		]
+	},
+	"Mk3-SK-Retre-VTOL-Plasmite": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-VTOL-Plasmite",
+		"name": "Plasmite Retribution VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb5-VTOL-Plasmite"
+		]
+	},
+	"Mk3-SK-Retre-VTOL-PulseLsr": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-VTOL-PulseLsr",
+		"name": "*SK-Retre-VTOL-PulseLsr*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSE-VTOL"
+		]
+	},
+	"Mk3-SK-Retre-VTOL-Scourge": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-VTOL-Scourge",
+		"name": "*SK-Retre-VTOL-Scourge*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-VTOL-AT"
+		]
+	},
+	"Mk3-SK-Retre-VTOL-Thermite": {
+		"body": "Body7ABT",
+		"id": "Mk3-SK-Retre-VTOL-Thermite",
+		"name": "*SK-Retre-VTOL-Thermite*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb4-VTOL-HvyINC"
+		]
+	},
+	"Mk3-SK-Scorp-Hover-ASGUN": {
+		"body": "Body8MBT",
+		"id": "Mk3-SK-Scorp-Hover-ASGUN",
+		"name": "*SK-Scorp-Hover-ASGUN*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"MG4ROTARYMk1"
+		]
+	},
+	"Mk3-SK-Scorp-Hover-BB": {
+		"body": "Body8MBT",
+		"id": "Mk3-SK-Scorp-Hover-BB",
+		"name": "*SK-Scorp-Hover-BB*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk3-SK-Scorp-Hover-Bombard": {
+		"body": "Body8MBT",
+		"id": "Mk3-SK-Scorp-Hover-Bombard",
+		"name": "*SK-Scorp-Hover-Bombard*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Mortar2Mk1"
+		]
+	},
+	"Mk3-SK-Scorp-Hover-Lancer": {
+		"body": "Body8MBT",
+		"id": "Mk3-SK-Scorp-Hover-Lancer",
+		"name": "*SK-Scorp-Hover-Lancer*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-SK-Scorp-Hover-Mcannon": {
+		"body": "Body8MBT",
+		"id": "Mk3-SK-Scorp-Hover-Mcannon",
+		"name": "*SK-Scorp-Hover-Mcannon*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-SK-Scorpion-VTOL-BB": {
+		"body": "Body8MBT",
+		"id": "Mk3-SK-Scorpion-VTOL-BB",
+		"name": "*SK-Scorpion-VTOL-BB*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk3-SK-Scorpion-VTOL-Hbomb": {
+		"body": "Body8MBT",
+		"id": "Mk3-SK-Scorpion-VTOL-Hbomb",
+		"name": "*SK-Scorpion-VTOL-Hbomb*",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb2-VTOL-HvHE"
+		]
+	},
+	"Mk3-SK-Tiger-Hover-ASCannon": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Hover-ASCannon",
+		"name": "*SK-Tiger-Hover-ASCannon*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon5VulcanMk1"
+		]
+	},
+	"Mk3-SK-Tiger-Hover-Gauss": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Hover-Gauss",
+		"name": "*SK-Tiger-Hover-Gauss*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk3-SK-Tiger-Hover-HVC": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Hover-HVC",
+		"name": "*SK-Tiger-Hover-HVC*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk3-SK-Tiger-Hover-Hcannon": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Hover-Hcannon",
+		"name": "*SK-Tiger-Hover-Hcannon*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-SK-Tiger-Hover-Scourge": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Hover-Scourge",
+		"name": "*SK-Tiger-Hover-Scourge*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-SK-Tiger-Hover-TK": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Hover-TK",
+		"name": "*SK-Tiger-Hover-TK*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-SK-Tiger-Track-ASCannon": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Track-ASCannon",
+		"name": "*SK-Tiger-Track-ASCannon*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon5VulcanMk1"
+		]
+	},
+	"Mk3-SK-Tiger-Track-Gauss": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Track-Gauss",
+		"name": "*SK-Tiger-Track-Gauss*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk3-SK-Tiger-Track-HVC": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Track-HVC",
+		"name": "*SK-Tiger-Track-HVC*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTOMk1"
+		]
+	},
+	"Mk3-SK-Tiger-Track-Hcannon": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Track-Hcannon",
+		"name": "*SK-Tiger-Track-Hcannon*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-SK-Tiger-Track-Scourge": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Track-Scourge",
+		"name": "*SK-Tiger-Track-Scourge*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-SK-Tiger-Track-TK": {
+		"body": "Body9REC",
+		"id": "Mk3-SK-Tiger-Track-TK",
+		"name": "*SK-Tiger-Track-TK*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-SK-Veng-Hover-Gauss": {
+		"body": "Body10MBT",
+		"id": "Mk3-SK-Veng-Hover-Gauss",
+		"name": "*SK-Veng-Hover-Gauss*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk3-SK-Veng-Hover-PulseLsr": {
+		"body": "Body10MBT",
+		"id": "Mk3-SK-Veng-Hover-PulseLsr",
+		"name": "*SK-Veng-Hover-PulseLsr*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-SK-Veng-Hover-Scourge": {
+		"body": "Body10MBT",
+		"id": "Mk3-SK-Veng-Hover-Scourge",
+		"name": "*SK-Veng-Hover-Scourge*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-SK-Veng-Hover-Seraph": {
+		"body": "Body10MBT",
+		"id": "Mk3-SK-Veng-Hover-Seraph",
+		"name": "*SK-Veng-Hover-Seraph*",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-MdArt"
+		]
+	},
+	"Mk3-SK-Veng-Track-C6TwinAslt": {
+		"body": "Body10MBT",
+		"id": "Mk3-SK-Veng-Track-C6TwinAslt",
+		"name": "*SK-Veng-Track-C6TwinAslt*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon6TwinAslt"
+		]
+	},
+	"Mk3-SK-Veng-Track-Gauss": {
+		"body": "Body10MBT",
+		"id": "Mk3-SK-Veng-Track-Gauss",
+		"name": "*SK-Veng-Track-Gauss*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk3-SK-Veng-Track-HvyLaser": {
+		"body": "Body10MBT",
+		"id": "Mk3-SK-Veng-Track-HvyLaser",
+		"name": "*SK-Veng-Track-HvyLaser*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"HeavyLaser"
+		]
+	},
+	"Mk3-SK-Veng-Track-PulseLsr": {
+		"body": "Body10MBT",
+		"id": "Mk3-SK-Veng-Track-PulseLsr",
+		"name": "*SK-Veng-Track-PulseLsr*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-SK-Veng-Track-Scourge": {
+		"body": "Body10MBT",
+		"id": "Mk3-SK-Veng-Track-Scourge",
+		"name": "*SK-Veng-Track-Scourge*",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-Scorp-Trk-Com": {
+		"body": "Body8MBT",
+		"brain": "CommandBrain01",
+		"id": "Mk3-Scorp-Trk-Com",
+		"name": "Command Turret Scorpion Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk3-ScorpBBTracks": {
+		"body": "Body8MBT",
+		"id": "Mk3-ScorpBBTracks",
+		"name": "Bunker Buster Scorpion Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk3-ScorpHRepairHover": {
+		"body": "Body8MBT",
+		"id": "Mk3-ScorpHRepairHover",
+		"name": "Heavy Repair Scorpion Hover",
+		"propulsion": "hover03",
+		"repair": "HeavyRepair",
+		"type": "DROID"
+	},
+	"Mk3-ScorpHTrackHMG": {
+		"body": "Body8MBT",
+		"id": "Mk3-ScorpHTrackHMG",
+		"name": "Heavy Machinegun Scorpion Half Tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk3-ScorpHoverTruck": {
+		"body": "Body8MBT",
+		"construct": "Spade1Mk1",
+		"id": "Mk3-ScorpHoverTruck",
+		"name": "Truck Scorpion Hover",
+		"propulsion": "hover03",
+		"type": "CONSTRUCT"
+	},
+	"Mk3-ScorpRepairTrk": {
+		"body": "Body8MBT",
+		"id": "Mk3-ScorpRepairTrk",
+		"name": "Repair Scorpion Tracks",
+		"propulsion": "tracked03",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk3-ScorpTrkHMG": {
+		"body": "Body8MBT",
+		"id": "Mk3-ScorpTrkHMG",
+		"name": "Heavy Machinegun Scorpion Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-Scourge-Mantis-H": {
+		"body": "Body12SUP",
+		"id": "Mk3-Scourge-Mantis-H",
+		"name": "Scourge Mantis Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Missile-A-T"
+		]
+	},
+	"Mk3-Sk-CobraBBHover": {
+		"body": "Body5REC",
+		"id": "Mk3-Sk-CobraBBHover",
+		"name": "Bunker Buster Cobra Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk3-Sk-PythonHvCanTrack": {
+		"body": "Body11ABT",
+		"id": "Mk3-Sk-PythonHvCanTrack",
+		"name": "Heavy Cannon Python Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon375mmMk1"
+		]
+	},
+	"Mk3-SuperTransport": {
+		"available": true,
+		"body": "SuperTransportBody",
+		"id": "Mk3-SuperTransport",
+		"name": "Super Transport",
+		"propulsion": "V-Tol03",
+		"type": "SUPERTRANSPORTER"
+	},
+	"Mk3-TK-Mantis-H": {
+		"body": "Body12SUP",
+		"id": "Mk3-TK-Mantis-H",
+		"name": "Tank Killer Mantis Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-HvyA-T"
+		]
+	},
+	"Mk3-TigerHoverPulseLas": {
+		"body": "Body9REC",
+		"id": "Mk3-TigerHoverPulseLas",
+		"name": "Pulse Laser Tiger Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-TigerHoverRailGun": {
+		"body": "Body9REC",
+		"id": "Mk3-TigerHoverRailGun",
+		"name": "Rail Gun Tiger Hover",
+		"propulsion": "hover03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun2Mk1"
+		]
+	},
+	"Mk3-TigerHvLaserTracks": {
+		"body": "Body9REC",
+		"id": "Mk3-TigerHvLaserTracks",
+		"name": "Heavy Laser Tiger Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"HeavyLaser"
+		]
+	},
+	"Mk3-TigerPulseTracks": {
+		"body": "Body9REC",
+		"id": "Mk3-TigerPulseTracks",
+		"name": "Pulse Laser Tiger Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-Transporter": {
+		"available": true,
+		"body": "TransporterBody",
+		"id": "Mk3-Transporter",
+		"name": "Cyborg Transport",
+		"propulsion": "V-Tol03",
+		"type": "TRANSPORTER"
+	},
+	"Mk3-V-Bug-BB": {
+		"body": "Body4ABT",
+		"id": "Mk3-V-Bug-BB",
+		"name": "VTOL Bunker Buster Bug VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk3-V-Bug-ClusterBomb": {
+		"body": "Body4ABT",
+		"id": "Mk3-V-Bug-ClusterBomb",
+		"name": "VTOL Cluster Bomb Bay Bug VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb1-VTOL-LtHE"
+		]
+	},
+	"Mk3-V-Bug-HPV": {
+		"body": "Body4ABT",
+		"id": "Mk3-V-Bug-HPV",
+		"name": "VTOL Hyper Velocity Cannon Bug VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTO-VTOL"
+		]
+	},
+	"Mk3-V-Bug-Lancer": {
+		"body": "Body4ABT",
+		"id": "Mk3-V-Bug-Lancer",
+		"name": "VTOL Lancer Bug VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk3-V-Mantis-HPV": {
+		"body": "Body12SUP",
+		"id": "Mk3-V-Mantis-HPV",
+		"name": "VTOL Hyper Velocity Cannon Mantis VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTO-VTOL"
+		]
+	},
+	"Mk3-V-Mantis-Lancer": {
+		"body": "Body12SUP",
+		"id": "Mk3-V-Mantis-Lancer",
+		"name": "VTOL Lancer Mantis VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk3-V-Scor-BB": {
+		"body": "Body8MBT",
+		"id": "Mk3-V-Scor-BB",
+		"name": "VTOL Bunker Buster Scorpion VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-BB"
+		]
+	},
+	"Mk3-V-Scor-ClusterBomb": {
+		"body": "Body8MBT",
+		"id": "Mk3-V-Scor-ClusterBomb",
+		"name": "VTOL Cluster Bomb Bay Scorpion VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Bomb1-VTOL-LtHE"
+		]
+	},
+	"Mk3-V-Scor-HPV": {
+		"body": "Body8MBT",
+		"id": "Mk3-V-Scor-HPV",
+		"name": "VTOL Hyper Velocity Cannon Scorpion VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon4AUTO-VTOL"
+		]
+	},
+	"Mk3-V-Scor-Lancer": {
+		"body": "Body8MBT",
+		"id": "Mk3-V-Scor-Lancer",
+		"name": "VTOL Lancer Scorpion VTOL",
+		"propulsion": "V-Tol03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-VTOL-LtA-T"
+		]
+	},
+	"Mk3-Viper-Trk-Com": {
+		"body": "Body1REC",
+		"brain": "CommandBrain01",
+		"id": "Mk3-Viper-Trk-Com",
+		"name": "Command Turret Viper Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"CommandTurret1"
+		]
+	},
+	"Mk3-ViperBBWheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperBBWheels",
+		"name": "Bunker Buster Rockets Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-BB"
+		]
+	},
+	"Mk3-ViperFlameHalfTrack03s": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperFlameHalfTrack03s",
+		"name": "Flamer Viper Half-Tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Flame1Mk1"
+		]
+	},
+	"Mk3-ViperFlameWheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperFlameWheels",
+		"name": "Flamer Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"Flame1Mk1"
+		]
+	},
+	"Mk3-ViperHMGHalfTrack03": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperHMGHalfTrack03",
+		"name": "Heavy Machinegun Viper Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-ViperHMGTracks": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperHMGTracks",
+		"name": "Heavy Machinegun Viper Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-ViperHMGWheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperHMGWheels",
+		"name": "Heavy Machinegun Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"MG3Mk1"
+		]
+	},
+	"Mk3-ViperLtA-Twheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperLtA-Twheels",
+		"name": "Lancer Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-ViperLtCannonHTracks": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperLtCannonHTracks",
+		"name": "Light Cannon Viper Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk3-ViperLtCannonTracks": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperLtCannonTracks",
+		"name": "Light Cannon Viper Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk3-ViperLtCannonWheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperLtCannonWheels",
+		"name": "Light Cannon Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon1Mk1"
+		]
+	},
+	"Mk3-ViperLtMGHalfTrack03s": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperLtMGHalfTrack03s",
+		"name": "Machinegun Viper Half-Tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk3-ViperMG01Wheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperMG01Wheels",
+		"name": "Machinegun Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"MG1Mk1"
+		]
+	},
+	"Mk3-ViperMG02HalfTrack03": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperMG02HalfTrack03",
+		"name": "Twin Machinegun Viper Half-tracks",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"MG2Mk1"
+		]
+	},
+	"Mk3-ViperMG02Wheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperMG02Wheels",
+		"name": "Twin Machinegun Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"MG2Mk1"
+		]
+	},
+	"Mk3-ViperMRLHalfTrack03s": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperMRLHalfTrack03s",
+		"name": "Mini-Rocket Array Viper Half Track",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-MRL"
+		]
+	},
+	"Mk3-ViperMRLWheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperMRLWheels",
+		"name": "Mini-Rocket Array Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-MRL"
+		]
+	},
+	"Mk3-ViperMedCnTrks": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperMedCnTrks",
+		"name": "Medium Cannon Viper Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Cannon2A-TMk1"
+		]
+	},
+	"Mk3-ViperPODHalfTrack03s": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperPODHalfTrack03s",
+		"name": "Mini-Rocket Viper Half Track",
+		"propulsion": "HalfTrack03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-Pod"
+		]
+	},
+	"Mk3-ViperPODWheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperPODWheels",
+		"name": "Mini-Rocket Viper Wheels",
+		"propulsion": "wheeled03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-Pod"
+		]
+	},
+	"Mk3-ViperRepairHalfTrack03": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperRepairHalfTrack03",
+		"name": "Repair Turret Viper Half-track",
+		"propulsion": "HalfTrack03",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk3-ViperRepairWheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperRepairWheels",
+		"name": "Repair Turret Viper Wheels",
+		"propulsion": "wheeled03",
+		"repair": "LightRepair1",
+		"type": "DROID"
+	},
+	"Mk3-ViperSensorWheels": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperSensorWheels",
+		"name": "Sensor Turret Viper Wheels",
+		"propulsion": "wheeled03",
+		"sensor": "SensorTurret1Mk1",
+		"type": "DROID"
+	},
+	"Mk3-ViperTrkLancer": {
+		"body": "Body1REC",
+		"id": "Mk3-ViperTrkLancer",
+		"name": "Lancer Viper Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Rocket-LtA-T"
+		]
+	},
+	"Mk3-WyvernGaussTracks": {
+		"body": "Body13SUP",
+		"id": "Mk3-WyvernGaussTracks",
+		"name": "Gauss Cannon Wyvern Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"RailGun3Mk1"
+		]
+	},
+	"Mk3-WyvernHvLaserTracks": {
+		"body": "Body13SUP",
+		"id": "Mk3-WyvernHvLaserTracks",
+		"name": "Heavy Laser Wyvern Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"HeavyLaser"
+		]
+	},
+	"Mk3-WyvernPlasmaCTracks": {
+		"body": "Body13SUP",
+		"id": "Mk3-WyvernPlasmaCTracks",
+		"name": "Plasma Cannon Wyvern Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Laser4-PlasmaCannon"
+		]
+	},
+	"Mk3-WyvernPulseTracks": {
+		"body": "Body13SUP",
+		"id": "Mk3-WyvernPulseTracks",
+		"name": "Pulse Laser Wyvern Tracks",
+		"propulsion": "tracked03",
+		"type": "DROID",
+		"weapons": [
+			"Laser2PULSEMk1"
+		]
+	},
+	"Mk3-WyvernScourgeTracks": {
+		"body": "Body13SUP",
+		"id": "Mk3-WyvernScourgeTracks",
+		"name": "Scourge Missile Wyvern Tracks",
+		"propulsion": "tracked03",
 		"type": "DROID",
 		"weapons": [
 			"Missile-A-T"

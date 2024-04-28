@@ -1,6 +1,7 @@
 
 // this is a changelog i keep for my own use because i have the memory of a goldfish. //
 // there is no reason not to share it. //
+// see 'todo.txt' for more detailed changes. //
 
 ==information on formatting==
 // this changelog contains minimal capitalization. //
@@ -69,9 +70,36 @@
 		-obliterator.pie = added texture (FIN);
 		-obliteratormount.pie = added texture (FIN);
 ---
+|mp\images:
+	||added:
+		|||-intfac\ (FIN);:
+			-added IMAGE_RES_VTOLTECH.png (FIN);
+				~(this doesn't seem to work).
+		|||intfac.img:
+			-added IMAGE_RES_VTOLTECH.png (FIN);
+				~(this doesn't seem to work).
+---
 |mp\messages:
+	||resmessages2.json:
+		-changed half-tracks mk2 (FIN) [244];
+		-changed tracks mk2 (FIN) [376];
+		-changed hover mk2 (FIN) [442];
+		-changed wheels mk2 (FIN) [453];
+-
+	||resmessages3.json:
+		-changed cyborg legs mk3 (FIN) [145];
+		-changed half-tracks mk3 (FIN) [299];
+		-changed tracks mk3 (FIN) [530];
+		-changed hover mk3 (FIN) [629];
+		-changed vtol mk2 (FIN) [640];
+		-changed vtol mk3 (FIN) [651];
+		-changed wheels mk3 (FIN) [662];
+-
+	||resmessages23.json:
+		-changed cyborg legs mk2 (FIN) [2];
+-
 	||resmessagesall.json:
-		-updated bunker buster description (FIN) [860];
+		-changed bunker buster (FIN) [860];
 		-added tank buster (FIN);
 		-added tank buster tower (FIN);
 		-added air buster aa (FIN);
@@ -86,12 +114,19 @@
 		-added air blaster aa tower (FIN);
 		-added obliterator (FIN);
 		-added obliterator emplacement (FIN);
+		-changed vtol (FIN) [673];
+		-added naval (FIN);
+		-added naval mk2 (FIN);
+		-added naval mk3 (FIN);
+		-added helicopter (FIN);
+		-added helicopter mk2 (FIN);
+		-added helicopter mk3 (FIN);
 ---
-|mp\multiplay\script\mods;
+|mp\multiplay\script\mods:
 	||init.js:
 		-added mod include = "superwarzone/sw.js" (FIN);
 ---
-|mp\multiplay\script\rules\setup;
+|mp\multiplay\script\rules\setup:
 	||droidlimits.js:
 		-increased overall unit limit from 150 to 9999 (FIN);
 			~(i am not responsible for melted computers).
@@ -109,6 +144,7 @@
 		-changed medium bot to get 10% more power than the selected power level setting (FIN);
 		-changed hard bot to get 50% more power than the selected power level setting (FIN);
 		-changed insane bot to get 100% more power than the selected power level setting (FIN);
+		-improved overall code (FIN);
 -
 	||structurelimits.js:
 		~(i am not sure this file even does anything).
@@ -116,8 +152,8 @@
 		-increased all limits to 100 (FIN);
 ---
 |mp\multiplay\skirmish:
-	-added new cobra variants for dedicated weapon paths, changed files and folders listed below (FIN,HAK);
-		~(i might add variants for flamer and mortar in the future).
+// added new cobra variants for dedicated weapon paths, changed files and folders listed below. //
+// i might add variants for flamer and mortar in the future. //
 -
 	||added:
 		~(copied but unchanged files and folders are excluded from this changelog).
@@ -169,29 +205,32 @@
 		-added obliterator (FIN);
 		-added obliterator emplacement (FIN);
 		-added vtol plasma cannon (FIN);
-		-fixed bug with plasma cannon emplacement = wrong stat id fixed (FIN) [1206];
+		-fixed bug with plasma cannon emplacement (FIN) [1206];
 		-changed tank killer to make lancer redundant (FIN) [8911];
-		|||increased HP upgrade to match armor upgrade of:
-			-Improved Hardcrete (FIN) [1824];
-			-Improved Hardcrete Mk2 (FIN) [1853];
-			-Improved Hardcrete Mk3 (FIN) [1882];
-			-Supercrete (FIN) [1911];
-			-Supercrete Mk2 (FIN) [1941];
-			-Supercrete Mk3 (FIN) [1970];
-			-Plascrete (FIN) [1999];
-			-Plascrete Mk2 (FIN) [2029];
-			-Plascrete Mk3 (FIN) [2058];
-			-Plasteel (FIN) [2087];
-			-Plasteel Mk2 (FIN) [2116];
-			-Plasteel Mk3 (FIN) [2145];
-			-Reinforced Base Structure Materials (FIN) [2306];
-			-Hardened Base Structure Materials (FIN) [2335];
-			-Advanced Base Structure Materials (FIN) [2365];
+		-added wheels mk2 + added wheels mk3 (FIN);
+		-added half-tracks mk2 + added half-tracks mk3 (FIN);
+		-added tracks mk2 + added tracks mk3 (FIN);
+		-added hover mk2 + added hover mk3 (FIN);
+		-added vtol mk2 + added vtol mk3 (FIN);
+		-added naval + added naval mk2 + added naval mk3 (FIN);
+		-added helicopter + added helicopter mk2 + added helicopter mk3 (FIN);
+		|||increased hp upgrade to match armor upgrade of:
+			-improved hardcrete + improved hardcrete mk2 + improved hardcrete mk3 (FIN) [1824,1853,1882];
+			-supercrete + supercrete mk2 + supercrete mk3 (FIN) [1911,1941,1970];
+			-plascrete + plascrete mk2 + plascrete mk3 (FIN) [1999,2029,2058];
+			-plasteel + plasteel mk2 + plasteel mk3 (FIN) [2087,2116,2145];
+			-reinforced base structure materials + hardened base structure materials + advanced base structure materials (FIN) [2306,2335,2365];
 -
 	||sensor.json:
 		-added ultimate sensor (FIN);
 			~(sensor used by some of the new structures, mostly the ones with absurd weapon ranges such as the obliterator emplacement and *super obliterator fortress*),
 			~(while i could require players to build sensor towers, you have to remember what kind of mod this is, plus that thing is already really expensive and takes forever to build).
+		-added navy internal sensor (FIN,HAK);
+			~(naval units get far better vision),
+			~(this could only be added through templates).
+		-added navy sensor turret (FIN);
+		-added navy cb radar turret (FIN);
+		-added navy wide spectrum sensor (FIN);
 -
 	||structure.json:
 		-added bunker buster tower (FIN);
@@ -229,15 +268,16 @@
 -
 	||weaponmodifier.json:
 		-rebalanced all modifiers (FIN);
+		-added naval (FIN);
 --
 	||weapons.json:
-		-rebalanced sunburst aa = removed homing (FIN) [4173];
-		-rebalanced vtol sunburst aa = removed homing (FIN) [4391];
-		-rebalanced hurricane aa turret = removed homing (FIN) [3594];
-		-rebalanced whirlwind aa turret = removed homing (FIN) [3636];
-		-rebalanced aa cyclone flak cannon = removed homing (FIN) [2];
-		-rebalanced aa tornado flak cannon = removed homing (FIN) [44];
-		-rebalanced stormbringer aa laser = removed homing (FIN) [86];
+		-rebalanced sunburst aa (FIN) [4173];
+		-rebalanced vtol sunburst aa (FIN) [4391];
+		-rebalanced hurricane aa turret (FIN) [3594];
+		-rebalanced whirlwind aa turret (FIN) [3636];
+		-rebalanced aa cyclone flak cannon (FIN) [2];
+		-rebalanced aa tornado flak cannon (FIN) [44];
+		-rebalanced stormbringer aa laser (FIN) [86];
 		-rebalanced ripple rockets (FIN) [3960];
 		-rebalanced hyper velocity cannon (FIN) [956];
 		-rebalanced bunker buster (FIN) [3878];
@@ -255,9 +295,10 @@
 		-added vtol air blaster aa (FIN);
 		-added obliterator (FIN);
 		-added vtol plasma cannon (FIN);
-		-added lassat control (WIP,IMP);
-		-added mini-nuke array (WIP);
-		-added nuke launcher (WIP);
+-
+	||templates.json:
+		-changed truck (FIN) [656,665];
+		-added templates for mk2 propulsions + added templates for mk3 propulsions (FIN);
 ---
 |mp\texpages:
 	||added:

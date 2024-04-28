@@ -7,50 +7,39 @@
 ==sorted by type/similarity, starting by status and order of implementation==
 --
 =TBD=
--add wheels 2;
--add wheels 3;
--add half-tracks 2;
--add half-tracks 3;
--add tracks 2;
--add tracks 3;
--add hover 2;
--add hover 3;
--add vtol 2;
--add vtol 3;
--add legs 2;
--add legs 3;
+-increase power upgrade bonus;
 -
 -re-implement mk2 and mk3 production upgrades;
--add production upgrade 5;
--add production upgrade 6;
+-add production upgrade 13-15;
+-add production upgrade 16-18;
 -
 -re-implement mk2 and mk3 repair upgrades;
--add repair upgrade 4;
--add repair upgrade 5;
--
--add auto-repair upgrade 1;
--add auto-repair upgrade 2;
--
--add nexus upgrade 1;
--add nexus upgrade 2;
+-add repair upgrade 10-12;
+-add repair upgrade 13-15;
 -
 -re-implement mk2 and mk3 structure upgrades;
--add structure upgrade 4;
--add structure upgrade 5;
+-add structure upgrade 10-12;
+-add structure upgrade 13-15;
 -
--add defense upgrade 13;
--add defense upgrade 16;
+-add defense upgrade 13-15;
+-add defense upgrade 16-18;
 -
--increase power upgrade bonus;
+-add auto-repair upgrade 1-3;
+-add auto-repair upgrade 4-6;
+-
+-re-implement mk2 and mk3 resistance upgrades;
+-add resistance upgrade 4-6;
+-add nexus upgrade 1-3;
+-add nexus upgrade 4-6;
 ---
 ==version 1.5/2.x/3.x/4.x/5.x additions==
 --
 =coming in version 1.5=
--add barrage rocket array = all-rounder in rocket branch;
--add meteor missile array = all-rounder in missile branch;
+-add volley rocket array = all-rounder in rocket branch;
+-add barrage missile array = all-rounder in missile branch;
 -
 // artillery aa have the same range as their anti-surface counterparts, and the same reload time, //
-// however, they are direct fire and only use the artillery round modifier, //
+// however, they are direct fire and only use the artillery round modifier and specific subclass, //
 // as such, they will need radar to increase their range, //
 // note that for direct fire weapons, any source of radar will increase their range, such as your army, //
 // unlike indirect, which needs to be assigned to a dedicated sensor. //
@@ -62,77 +51,154 @@
 -replace twin machinegun with medium machinegun;
 -rename assault gun to light assault gun;
 -replace twin assault gun with medium assault gun;
--add heavy assault gun = light laser alternative;
+-add heavy assault gun = flashlight alternative;
 -add light gun = light assault gun alternative; 
 -add medium gun = all-rounder in machinegun branch;
 -add heavy gun = anti-tank in machinegun branch;
 -add light auto gun = heavy assault gun alternative;
 -add medium auto gun = all-rounder in machinegun branch;
 -add heavy auto gun = anti-tank in machinegun branch;
+// new super weapons for machinegun/mortar branch. //
+- add molten rain = long range rapid fire rotary gun artillery (think assault gun artillery) = very slow game ender;
+- add meteor storm = long range rapid fire mortar = slow game ender;
 --
 =coming in version 3.x=
--rename flashlight to light laser;
--rename pulse laser to medium laser;
--rebalance heavy laser = reduce weight;
+-change the intelligence display entry of flashlight to mention that it is the light laser;
+-change the intelligence display entry of pulse laser to mention that it is the medium laser;
 -add hyper laser = heavy laser alternative;
 -add beam laser = all-rounder in laser branch;
 -add ultra laser = anti-tank in laser branch;
+// new super weapons for laser branch. //
+- add disintegrator laser cannon = long range bendable-laser-light beam cannon artillery (think Anime space lasers, IYKYK) = slow game ender;
+- add super laser satellite = upgrade the lassat through research into a weapon that wipes out entire bases and armies = fast game ender;
 --
 =coming in version 4.x=
 -rename assault cannon to light auto cannon;
 -replace twin assault cannon with medium auto cannon;
--add heavy auto cannon = light coil gun alternative;
+-add heavy auto cannon = needle gun alternative;
 -add ultra velocity cannon = anti-tank in cannon branch;
 -add shredder auto cannon = anti-personnel in cannon branch;
+// new super weapons for cannon/howitzer branch. //
+-add super hyper velocity cannon = big hpv cannon with big splash = very slow game ender;
+-add earth shatterer = bigger badder earth shaker = slow game ender;
 --
 =coming in version 5.x=
--rename needle gun to light coil gun;
--rename rail gun to medium coil gun;
--rename gauss cannon to heavy coil gun;
--add hyper coil gun = heavy coil gun alternative;
--add ultra coil gun = anti-tank in coil branch;
--add auto coil gun = anti-personnel in coil branch;
+-change the intelligence display entry of needle gun to mention that it is the light gauss;
+-change the intelligence display entry of rail gun to mention that it is the medium gauss;
+-change the intelligence display entry of rail gun to mention that it is actually a coil gun;
+-change the intelligence display entry of gauss cannon to mention that it is the heavy gauss;
+-add hyper rail gun = gauss cannon alternative;
+-add ultra rail gun = anti-tank in gauss branch;
+-add auto rail gun = anti-personnel in gauss branch;
+// new super weapons for gauss branch. //
+-add super hyper rail cannon = big hpr cannon with big splash = slow game ender;
+--add rod from god = gauss version of lassat = fast game ender (IMP);
+	~(putting this here for reference, however, it requires source code edits to add, so it's primary place is in that section below).
 ---
 --
 =WIP=
--add mini-nuke array;
--add nuke launcher;
+-add launch code research into multiplayer/skirmish;
+	~(nuclear weapons will require this).
+// new super weapon* for rocket branch. //
+-add mini-nuke launcher = fires a single dumb long range mini-nuke = very slow/slow/fast game ender;
+	~("very slow/slow/fast game ender", this is because there will be more rocket upgrades in tier 4),
+	~(researching them will upgrade it to "slow" and beyond, it is the only VTOL mountable super weapon (excluding the plasma cannon)),
+	~(because of these things, the rocket branch gets only one* super weapon).
+// new super weapons for missile branch. //
+-add tactical-nuke launcher = fires salvo of 3 tactical nukes = slow game ender;
+-add strategic-nuke launcher = fires 2 strategic nukes = fast game ender;
 -
 -add vtol variants of all aa;
 --
 =FIN=
--increase structure limits;
--increase unit limits;
--increase power bonus from power level settings;
+// added new variants of cobra. //
+// AR: All-Rounder; Cannons/Gauss, Mortars/Howitzers, Machineguns/Lasers. //
+// AT: Anti-Tank; Rockets/Missiles, Rocket-Artillery/Missile-Artillery, Machineguns/Lasers. //
+// AP: Anti-Personnel; Machineguns/Lasers, Flamers, Mortars. //
+-added ar cobra variant = all-rounder specialized cobra;
+-added at cobra variant = anti-tank specialized cobra;
+-added ap cobra variant = anti-personnel specialized cobra;
+-removed temporarily all bots other than cobra and it's variants;
+	~(all bots need to be updated to work with the new propulsions (and the other new stuff, but less vital)),
+	~(i will update the bots over time).
+-changed the descriptions of all bots to make it clear what their power difficulty nerfs and buffs actually do.
 -
--fix wrong stat id of plasma cannon emplacement research topic;
+-increased structure limits;
+-increased unit limits;
+-increased power bonus from power level settings;
 -
--change tank killer to make lancer redundant;
+-fixed wrong stat id of plasma cannon emplacement research topic;
 -
--rebalance bunker buster;
--add tank buster;
--add air buster;
--add borg buster;
--add bunker blaster;
--add tank blaster;
--add air blaster;
--add borg blaster;
+-changed tank killer to make lancer redundant;
 -
--add obliterator;
--rebalance plasma cannon;
+-rebalanced bunker buster;
+-added tank buster;
+-added air buster;
+-added cyborg buster;
+-added bunker blaster;
+-added tank blaster;
+-added air blaster;
+-added cyborg blaster;
 -
--add cost to power module;
--increase power module power bonus;
+-added obliterator;
+-rebalanced plasma cannon;
 -
--increase structure and defense hitpoint upgrade amount;
+-added cost to power module;
+-increased power module power bonus;
 -
--increase speed and hp pct of all propulsions;
+-increased structure and defense hitpoint upgrade amount;
+-
+-rebalanced heavy laser = reduced weight;
+-
+-added wheels 2;
+-added wheels 3;
+-added half-tracks 2;
+-added half-tracks 3;
+-added tracks 2;
+-added tracks 3;
+-added hover 2;
+-added hover 3;
+-added vtol 2;
+-added vtol 3;
+-added legs 2;
+-added legs 3;
+// naval and helicopter were added as templates and are not designable, //
+// you can blame game and modding limitations for this. //
+-rebalanced naval;
+-added naval;
+-added naval 2;
+-added naval 3;
+-rebalanced helicopter;
+-added helicopter;
+-added helicopter 2;
+-added helicopter 3;
+-
+-changed tornado flak to require apfsds cannon rounds mk3 instead of heavy cannon;
+-
+-rebalanced sunburst aa = removed homing;
+-rebalanced vtol sunburst aa = removed homing;
+-rebalanced hurricane aa turret = removed homing;
+-rebalanced whirlwind aa turret = removed homing;
+-rebalanced aa cyclone flak cannon = removed homing;
+-rebalanced aa tornado flak cannon = removed homing;
+-rebalanced stormbringer aa laser = removed homing;
+-
+-rebalanced ripple rockets = slightly increased direct damage;
+-
+-rebalanced hyper velocity cannon = slightly increased rof;
+-
+-changed the template name for truck to Truck Viper Wheels;
+-added templates for mk2 and mk3 propulsions;
+	~(this was a pain in the ass).
 ---
 ==these items require source code changes==
 ==sorted by type/similarity, starting by status and order of implementation==
 --
 =TBD=
 -add nuclear power plant (HAK);
+-
+-add rod from god = gauss version of lassat = fast game ender (IMP);
+	~(duplicated here, as this is where it should go).
 --
 =WIP=
 -add lassat control (IMP);
