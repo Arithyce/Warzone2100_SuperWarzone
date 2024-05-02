@@ -13,6 +13,7 @@ rebalance sensor upgrade 1-3
 add sensor upgrade 4-6;
 add sensor upgrade 7-9;
 -
+add nuclear power
 add nuclear power upgrades 1-3;
 -
 -increase power upgrade bonus;

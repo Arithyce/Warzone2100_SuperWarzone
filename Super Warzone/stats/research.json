@@ -2408,7 +2408,7 @@
 			{
 				"class": "Building",
 				"parameter": "PowerPoints",
-				"value": 50
+				"value": 25
 			}
 		],
 		"subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -2460,8 +2460,7 @@
 		"msgName": "RES_POWU2",
 		"name": "Vapor Turbine Generator",
 		"requiredResearch": [
-			"R-Struc-Research-Upgrade07",
-			"R-Struc-Power-Upgrade01c"
+			"R-Mod-Power-Upgrade01"
 		],
 		"researchPoints": 9000,
 		"researchPower": 281,
@@ -2469,7 +2468,7 @@
 			{
 				"class": "Building",
 				"parameter": "PowerPoints",
-				"value": 30
+				"value": 25
 			}
 		],
 		"subgroupIconID": "IMAGE_RES_GRPUPG"
@@ -2488,7 +2487,7 @@
 			{
 				"class": "Building",
 				"parameter": "PowerPoints",
-				"value": 30
+				"value": 25
 			}
 		],
 		"subgroupIconID": "IMAGE_RES_GRPUPG",
@@ -2508,7 +2507,7 @@
 			{
 				"class": "Building",
 				"parameter": "PowerPoints",
-				"value": 30
+				"value": 25
 			}
 		],
 		"subgroupIconID": "IMAGE_RES_GRPUPG",
@@ -2531,7 +2530,7 @@
 			{
 				"class": "Building",
 				"parameter": "PowerPoints",
-				"value": 25
+				"value": 70
 			}
 		],
 		"statID": "A0PowMod1"
@@ -6716,9 +6715,6 @@
 		],
 		"researchPoints": 56600,
 		"researchPower": 450,
-		"resultComponents": [
-			"LasSatCtrl"
-		],
 		"resultStructures": [
 			"A0LasSatCommand"
 		],
@@ -9008,12 +9004,88 @@
 		"statID": "Rocket-Sunburst",
 		"techCode": 1
 	},
-	"_superwarzoner": {
+	"R-Mod-Power-Upgrade01": {
 		"_swst": null,
-		"iconID": "IMAGE_RES_COMPUTERTECH",
-		"id": "_superwarzoner",
-		"imdName": "MICAPSUL.PIE",
-		"name": "*superwarzoner*",
+		"_pwst": null,
+		"iconID": "IMAGE_RES_POWERTECH",
+		"id": "R-Mod-Power-Upgrade01",
+		"imdName": "blpower4.pie",
+		"msgName": "RES_POWMU1",
+		"name": "Improved Power Module",
+		"requiredResearch": [
+			"R-Struc-Research-Upgrade07",
+			"R-Struc-Power-Upgrade01b"
+		],
+		"researchPoints": 7500,
+		"researchPower": 234,
+		"results": [
+			{
+				"class": "Building",
+				"parameter": "ModulePowerPoints",
+				"value": 40
+			}
+		],
+		"subgroupIconID": "IMAGE_RES_GRPUPG"
+	},
+	"R-Mod-Power-Upgrade02": {
+		"iconID": "IMAGE_RES_POWERTECH",
+		"id": "R-Mod-Power-Upgrade02",
+		"imdName": "blpower4.pie",
+		"msgName": "RES_POWMU2",
+		"name": "Advanced Power Module",
+		"requiredResearch": [
+			"R-Struc-Research-Upgrade09",
+			"R-Struc-Power-Upgrade03a"
+		],
+		"researchPoints": 20000,
+		"researchPower": 450,
+		"results": [
+			{
+				"class": "Building",
+				"parameter": "ModulePowerPoints",
+				"value": 100
+			}
+		],
+		"subgroupIconID": "IMAGE_RES_GRPUPG"
+	},
+	"R-Comp-MissileCodes01": {
+		"_cpst": null,
+		"iconID": "IMAGE_RES_WEAPONTECH",
+		"id": "R-Comp-MissileCodes01",
+		"imdName": "ICMSLCD.PIE",
+		"name": "Nuclear Targeting Codes",
+		"requiredResearch": [
+			"NuclearReactor",
+		],
+		"researchPoints": 50000,
+		"researchPower": 450,
+		"subgroupIconID": "IMAGE_RES_COMPUTERTECH",
+		"techCode": 1
+	},
+	"R-Comp-MissileCodes02": {
+		"iconID": "IMAGE_RES_WEAPONTECH",
+		"id": "R-Comp-MissileCodes02",
+		"imdName": "ICMSLCD.PIE",
+		"name": "Nuclear Firing Codes",
+		"requiredResearch": [
+			"R-Comp-MissileCodes01"
+		],
+		"researchPoints": 50000,
+		"researchPower": 450,
+		"subgroupIconID": "IMAGE_RES_COMPUTERTECH",
+		"techCode": 1
+	},
+	"R-Comp-MissileCodes03": {
+		"iconID": "IMAGE_RES_WEAPONTECH",
+		"id": "R-Comp-MissileCodes03",
+		"imdName": "ICMSLCD.PIE",
+		"name": "Nuclear Arming Codes",
+		"requiredResearch": [
+			"R-Comp-MissileCodes02"
+		],
+		"researchPoints": 50000,
+		"researchPower": 450,
+		"subgroupIconID": "IMAGE_RES_COMPUTERTECH",
 		"techCode": 1
 	},
 	"R-Wpn-Rocket-TankBuster": {
@@ -9035,8 +9107,6 @@
 		"statID": "Rocket-TBU"
 	},
 	"R-Wpn-Rocket-AirBuster-AA": {
-		"_swMod": null,
-		"_swmd": null,
 		"disabledWhen": 4,
 		"iconID": "IMAGE_RES_WEAPONTECH",
 		"id": "R-Wpn-Rocket-AirBuster-AA",
@@ -9056,8 +9126,6 @@
 		"statID": "Rocket-ABU"
 	},
 	"R-Wpn-Rocket-BorgBuster": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_WEAPONTECH",
 		"id": "R-Wpn-Rocket-BorgBuster",
 		"msgName": "RES_W_RK_CBU",
@@ -9098,8 +9166,6 @@
 		"statID": "Missile-BBA"
 	},
 	"R-Wpn-Missile-TankBlaster": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_WEAPONTECH",
 		"id": "R-Wpn-Missile-TankBlaster",
 		"msgName": "RES_W_ATM_TBA",
@@ -9122,8 +9188,6 @@
 		"statID": "Missile-TBA"
 	},
 	"R-Wpn-Missile-AirBlaster-AA": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_WEAPONTECH",
 		"id": "R-Wpn-Missile-AirBlaster-AA",
 		"msgName": "RES_W_ATM_ABA",
@@ -9146,8 +9210,6 @@
 		"statID": "Missile-ABA"
 	},
 	"R-Wpn-Missile-BorgBlaster": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_WEAPONTECH",
 		"id": "R-Wpn-Missile-BorgBlaster",
 		"msgName": "RES_W_ATM_CBA",
@@ -9171,8 +9233,6 @@
 		"statID": "Missile-CBA"
 	},
 	"R-Wpn-Obliterator": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_WEAPONTECH",
 		"id": "R-Wpn-Obliterator",
 		"msgName": "RES_W_OBLTRTR",
@@ -9224,8 +9284,6 @@
 		"statID": "GuardTowerBBU"
 	},
 	"R-Defense-TBU": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_DEFENCE",
 		"id": "R-Defense-TBU",
 		"msgName": "RES_EMP_TBUTOW",
@@ -9241,8 +9299,6 @@
 		"statID": "GuardTowerTBU"
 	},
 	"R-Defense-AA-ABU": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_DEFENCE",
 		"id": "R-Defense-AA-ABU",
 		"msgName": "RES_EMP_ABUTOW",
@@ -9258,8 +9314,6 @@
 		"statID": "GuardTowerABU"
 	},
 	"R-Defense-CBU": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_DEFENCE",
 		"id": "R-Defense-CBU",
 		"msgName": "RES_EMP_CBUTOW",
@@ -9275,8 +9329,6 @@
 		"statID": "GuardTowerCBU"
 	},
 	"R-Defense-BBA": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_DEFENCE",
 		"id": "R-Defense-BBA",
 		"msgName": "RES_EMP_BBATOW",
@@ -9295,8 +9347,6 @@
 		"statID": "GuardTowerBBA"
 	},
 	"R-Defense-TBA": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_DEFENCE",
 		"id": "R-Defense-TBA",
 		"msgName": "RES_EMP_TBATOW",
@@ -9315,8 +9365,6 @@
 		"statID": "GuardTowerTBA"
 	},
 	"R-Defense-AA-ABA": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_DEFENCE",
 		"id": "R-Defense-AA-ABA",
 		"msgName": "RES_EMP_ABATOW",
@@ -9335,8 +9383,6 @@
 		"statID": "GuardTowerABA"
 	},
 	"R-Defense-Obliterator": {
-		"_swMod": null,
-		"_swmd": null,
 		"iconID": "IMAGE_RES_DEFENCE",
 		"id": "R-Defense-Obliterator",
 		"msgName": "RES_EMP_OBLTRTR",

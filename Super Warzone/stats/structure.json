@@ -592,8 +592,8 @@
 		"hitpoints": 1000,
 		"id": "A0PowerGenerator",
 		"name": "Power Generator",
-		"powerPoints": 50,
-		"modulePowerPoints": 50,
+		"powerPoints": 70,
+		"modulePowerPoints": 70,
 		"resistance": 300,
 		"sensorID": "DefaultSensor1Mk1",
 		"strength": "MEDIUM",
@@ -3529,32 +3529,79 @@
 		],
 		"width": 2
 	},
-	"_superwarzones": {
-		"_swst": null,
-		"armour": 10,
+	"CoolingTowerSW": {
+		"_stst": null,
+		"armour": 20,
 		"breadth": 1,
-		"buildPoints": 200,
+		"buildPoints": 500,
 		"buildPower": 50,
 		"height": 2,
-		"hitpoints": 200,
-		"id": "_superwarzones",
-		"name": "*superwarzones*",
-		"resistance": 150,
-		"sensorID": "ZNULLSENSOR",
+		"hitpoints": 250,
+		"id": "CoolingTowerSW",
+		"name": "Cooling Tower",
+		"resistance": 500,
 		"strength": "MEDIUM",
 		"structureModel": [
-			"MITRAP2.PIE"
+			"micool.PIE"
 		],
-		"thermal": 10,
-		"type": "DEFENSE",
-		"weapons": [
-			"ZNULLWEAPON"
+		"thermal": 20,
+		"type": "MISSILE SILO",
+		"userLimits": [
+			0,
+			4,
+			100
 		],
 		"width": 1
 	},
+	"CoolingTowerLarge": {
+		"armour": 20,
+		"breadth": 2,
+		"buildPoints": 500,
+		"buildPower": 50,
+		"height": 3,
+		"hitpoints": 500,
+		"id": "CoolingTowerLarge",
+		"name": "Large Cooling Tower",
+		"resistance": 500,
+		"strength": "HARD",
+		"structureModel": [
+			"micoolbig.pie"
+		],
+		"thermal": 20,
+		"type": "MISSILE SILO",
+		"userLimits": [
+			0,
+			2,
+			100
+		],
+		"width": 2
+	},
+	"NuclearReactorSW": {
+		"armour": 20,
+		"breadth": 2,
+		"buildPoints": 500,
+		"buildPower": 50,
+		"height": 2,
+		"hitpoints": 1000,
+		"id": "NuclearReactorSW",
+		"name": "Nuclear Reactor",
+		"resistance": 500,
+		"sensorID": "DefaultSensor1Mk1",
+		"strength": "HARD",
+		"structureModel": [
+			"minuke.PIE"
+		],
+		"thermal": 20,
+		"type": "MISSILE SILO",
+		"userLimits": [
+			0,
+			1,
+			100
+		],
+		"width": 2
+	},
 	"GuardTowerBBU": {
-		"_swMod": null,
-		"_swmd": null,
+		"_dfst": null,
 		"armour": 10,
 		"breadth": 1,
 		"buildPoints": 200,
@@ -3577,8 +3624,6 @@
 		"width": 1
 	},
 	"GuardTowerTBU": {
-		"_swMod": null,
-		"_swmd": null,
 		"armour": 15,
 		"breadth": 1,
 		"buildPoints": 500,
@@ -3601,8 +3646,6 @@
 		"width": 1
 	},
 	"GuardTowerABU": {
-		"_swMod": null,
-		"_swmd": null,
 		"armour": 15,
 		"breadth": 1,
 		"buildPoints": 500,
@@ -3625,8 +3668,6 @@
 		"width": 1
 	},
 	"GuardTowerCBU": {
-		"_swMod": null,
-		"_swmd": null,
 		"armour": 15,
 		"breadth": 1,
 		"buildPoints": 500,
@@ -3649,8 +3690,6 @@
 		"width": 1
 	},
 	"GuardTowerBBA": {
-		"_swMod": null,
-		"_swmd": null,
 		"armour": 20,
 		"breadth": 1,
 		"buildPoints": 350,
@@ -3673,8 +3712,6 @@
 		"width": 1
 	},
 	"GuardTowerTBA": {
-		"_swMod": null,
-		"_swmd": null,
 		"armour": 20,
 		"breadth": 1,
 		"buildPoints": 800,
@@ -3697,8 +3734,6 @@
 		"width": 1
 	},
 	"GuardTowerABA": {
-		"_swMod": null,
-		"_swmd": null,
 		"armour": 20,
 		"breadth": 1,
 		"buildPoints": 800,
@@ -3721,8 +3756,6 @@
 		"width": 1
 	},
 	"GuardTowerCBA": {
-		"_swMod": null,
-		"_swmd": null,
 		"armour": 20,
 		"breadth": 1,
 		"buildPoints": 800,
