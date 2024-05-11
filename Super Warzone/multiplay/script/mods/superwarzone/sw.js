@@ -1,6 +1,7 @@
 // Super Warzone
 
-function declarations(){
+function declarations()
+{
 	var nuke=0;
 	var cool=0;
 	var lCool=0;
@@ -19,28 +20,38 @@ function declarations(){
 	var lPower=0;
 	var tPower=0;
 	var fPower=0;
-	var ticker = 0;
+	var ticker=0;
+	var loplay=0;
+	var loname="";
 	var nPrint="";
 	var cPrint="";
 	var lCPrint="";
+	var cheat=false;
 }
 
-const reactor_upgrades={
+const reactor_upgrades=
+{
 	nuke1: "ReactorUpgrade01",
 	nuke2: "ReactorUpgrade02",
 	nuke3: "ReactorUpgrade03"
 }; 
 
-function eventResearched(research, structure, player){
-	if (getResearch(reactor_upgrades.nuke1).done){
+const team=playerData.team;
+
+function eventResearched(research,structure,player)
+{
+	if (getResearch(reactor_upgrades.nuke1,team).done&&player==team)
+	{
 		nuke1=15;
 		lNuke1=30;
 	}
-	if (getResearch(reactor_upgrades.nuke2).done){
+	if (getResearch(reactor_upgrades.nuke2,team).done&&player==team)
+	{
 		nuke2=15;
 		lNuke2=30;
 	}
-	if (getResearch(reactor_upgrades.nuke3).done){
+	if (getResearch(reactor_upgrades.nuke3,team).done&&player==team)
+	{
 		nuke3=20;
 		lNuke3=40;
 	}
@@ -48,7 +59,28 @@ function eventResearched(research, structure, player){
 	lNukeUp=(lNuke1+lNuke2+lNuke3);
 }
 
-function consoleLog(){
+function eventCheatMode(entered)
+{
+	cheat=entered;
+	if (cheat===true)
+	{
+		console("Send \"SpectateMe\" to enter spectator mode");
+	}
+}
+
+function eventChat(from,to,message)
+{
+	if (cheat===true&&from==me&&message==="SpectateMe")
+	{
+		loplay=me;
+		loname=playerData.name;
+		transformPlayerToSpectator(me);
+		console("Player ",loplay,": ",loname," has become a spectator");
+	}
+}
+
+function consoleLog()
+{
 	nPrint=String(tPower);
 	cPrint=String(cLimit);
 	lCPrint=String(lCLimit);
@@ -57,48 +89,57 @@ function consoleLog(){
 	console("Remaining Large Cooling Towers ",lCPrint);
 }
 
-function counter(){
-	ticker++1;
-	if (ticker=>120){
+function counter()
+{
+	++ticker;
+	if (ticker=>120)
+	{
 		consoleLog();
 		ticker=0;
 	}
 }
 
-function countNuke(){
-	nuke=countStruct("Nuclear Reactor",selectedPlayer);
-	cool=countStruct("Cooling Tower",selectedPlayer);
-	lCool=countStruct("Large Cooling Tower",selectedPlayer);
+function countNuke()
+{
+	nuke=countStruct("Nuclear Reactor",me);
+	cool=countStruct("Cooling Tower",me);
+	lCool=countStruct("Large Cooling Tower",me);
 }
 
-function setNuke(){
+function setNuke()
+{
 	countNuke();
 	cLimit=(nuke*4-cool);
 	lCLimit=(nuke*2-lCool);
-	if ((nuke>=1&&cool>=1)||(nuke>=1&&lCool>=1)){
+	if ((nuke>=1&&cool>=1)||(nuke>=1&&lCool>=1))
+	{
 		nukeC=(nuke*(400+nukeUp+lNukeUp));
 		power=(cool*(50+nukeUp));
 		lPower=(lCool*(100+lNukeUp));
 		tPower=(power+lPower);
-		if (tPower>NukeC){
+		if (tPower>NukeC)
+		{
 			tpower=NukeC;
 		}
 		fPower=(tPower*powerType);
 		setPower(playerPower(selectedPlayer)+fPower);
 		counter();
 	}
-	else if (nuke==0||nuke>=1&&cool==0&&lCool==0){
+	else 
+	{
 		tPower=0;
 		counter();
 	}
 }
 
-function superWarzoneLoaded(){
-	setTimer("setNuke", 5000);
+function superWarzoneLoaded()
+{
+	setTimer("setNuke",5000);
 	console("Super Warzone Loaded");
 }
 
-function eventStartLevel(){
+function eventStartLevel()
+{
 	queue("declarations",1000);
 	queue("superWarzoneLoaded",5000);
 }
