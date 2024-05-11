@@ -3832,7 +3832,7 @@
 		"name": "Mini-Nuke Rocket Battery",
 		"resistance": 150,
 		"sensorID": "DefaultSensor1Mk1",
-		"strength": "BUNKER",
+		"strength": "HARD",
 		"structureModel": [
 			"blhardpt.pie"
 		],
@@ -3861,7 +3861,7 @@
 		"thermal": 20,
 		"type": "DEFENSE",
 		"weapons": [
-			"TacticalNukeSite"
+			"TacticalNuke"
 		],
 		"width": 1
 	},
@@ -3883,7 +3883,7 @@
 		"thermal": 20,
 		"type": "DEFENSE",
 		"weapons": [
-			"StrategicNukeSite"
+			"StrategicNuke"
 		],
 		"width": 1
 	}

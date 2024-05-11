@@ -2533,6 +2533,7 @@
 				"value": 70
 			}
 		],
+		"subgroupIconID": "IMAGE_RES_GRPUPG",
 		"statID": "A0PowMod1"
 	},
 	"R-Struc-RepairFacility": {
@@ -2552,7 +2553,7 @@
 		"statID": "A0RepairCentre3"
 	},
 	"R-Struc-Research-Module": {
-		"iconID": "IMAGE_RES_STRUCTURETECH",
+		"iconID": "IMAGE_RES_COMPUTERTECH",
 		"id": "R-Struc-Research-Module",
 		"msgName": "RES_ST_RM1",
 		"name": "Research Module",
@@ -2564,6 +2565,14 @@
 		"resultStructures": [
 			"A0ResearchModule1"
 		],
+		"results": [
+			{
+				"class": "Building",
+				"parameter": "ResearchPoints",
+				"value": 30
+			}
+		],
+		"subgroupIconID": "IMAGE_RES_GRPUPG"
 		"statID": "A0ResearchModule1"
 	},
 	"R-Struc-Research-Upgrade01": {
@@ -8104,8 +8113,7 @@
 		"researchPoints": 12000,
 		"researchPower": 375,
 		"resultComponents": [
-			"Laser4-PlasmaCannon",
-			"Laser4-VTOL-PlasmaCannon"
+			"Laser4-PlasmaCannon"
 		],
 		"statID": "Laser4-PlasmaCannon"
 	},
@@ -9048,6 +9056,38 @@
 		],
 		"subgroupIconID": "IMAGE_RES_GRPUPG"
 	},
+	"R-NuclearReactor": {
+		"iconID": "IMAGE_RES_POWERTECH",
+		"id": "R-NuclearReactor",
+		"msgName": "RES_NUCREAC",
+		"name": "Nuclear Reactor",
+		"requiredResearch": [
+			"R-Mod-Power-Upgrade02",
+			"R-Sys-Engineering03"
+		],
+		"resultStructures": [
+			"NuclearReactorSW",
+			"CoolingTowerSW"
+		],
+		"researchPoints": 40000,
+		"researchPower": 600,
+		"statID": "NuclearReactorSW"
+	},
+	"R-LargeCoolingTower": {
+		"iconID": "IMAGE_RES_POWERTECH",
+		"id": "R-LargeCoolingTower",
+		"msgName": "RES_LCOOLTOW",
+		"name": "Large Cooling Tower",
+		"requiredResearch": [
+			"R-NuclearReactor"
+		],
+		"resultStructures": [
+			"CoolingTowerLarge"
+		],
+		"researchPoints": 60000,
+		"researchPower": 2000,
+		"statID": "CoolingTowerLarge"
+	},
 	"R-Comp-MissileCodes01": {
 		"_cpst": null,
 		"iconID": "IMAGE_RES_WEAPONTECH",
@@ -9055,9 +9095,9 @@
 		"imdName": "ICMSLCD.PIE",
 		"name": "Nuclear Targeting Codes",
 		"requiredResearch": [
-			"NuclearReactor",
+			"R-NuclearReactor",
 		],
-		"researchPoints": 50000,
+		"researchPoints": 20000,
 		"researchPower": 450,
 		"subgroupIconID": "IMAGE_RES_COMPUTERTECH",
 		"techCode": 1
@@ -9070,7 +9110,7 @@
 		"requiredResearch": [
 			"R-Comp-MissileCodes01"
 		],
-		"researchPoints": 50000,
+		"researchPoints": 20000,
 		"researchPower": 450,
 		"subgroupIconID": "IMAGE_RES_COMPUTERTECH",
 		"techCode": 1
@@ -9083,7 +9123,7 @@
 		"requiredResearch": [
 			"R-Comp-MissileCodes02"
 		],
-		"researchPoints": 50000,
+		"researchPoints": 20000,
 		"researchPower": 450,
 		"subgroupIconID": "IMAGE_RES_COMPUTERTECH",
 		"techCode": 1
@@ -9233,6 +9273,7 @@
 		"statID": "Missile-CBA"
 	},
 	"R-Wpn-Obliterator": {
+		"_spst": null,
 		"iconID": "IMAGE_RES_WEAPONTECH",
 		"id": "R-Wpn-Obliterator",
 		"msgName": "RES_W_OBLTRTR",
@@ -9248,7 +9289,8 @@
 		"researchPoints": 50000,
 		"researchPower": 450,
 		"resultComponents": [
-			"Obliterator"
+			"Obliterator",
+			"Laser4-VTOL-PlasmaCannon"
 		],
 		"statID": "Obliterator"
 	},
@@ -9266,6 +9308,58 @@
 			"LasSatCtrl"
 		],
 		"statID": "LasSatCtrl"
+	},
+	"R-Wpn-MiniNuke": {
+		"iconID": "IMAGE_RES_WEAPONTECH",
+		"id": "R-Wpn-MiniNuke",
+		"msgName": "RES_W_MNUKE",
+		"name": "Mini-Nuke Rocket Launcher",
+		"requiredResearch": [
+			"R-Comp-MissileCodes03",
+			"R-Wpn-Rocket-ROF03",
+			"R-Wpn-Rocket-Damage09",
+			"R-Wpn-RocketSlow-Accuracy02"
+		],
+		"researchPoints": 10000,
+		"researchPower": 1000,
+		"resultComponents": [
+			"MiniNuke"
+		],
+		"statID": "MiniNuke"
+	},
+	"R-Wpn-TacticalNuke": {
+		"iconID": "IMAGE_RES_WEAPONTECH",
+		"id": "R-Wpn-TacticalNuke",
+		"msgName": "RES_W_TNUKE",
+		"name": "Tactical Nuke Missile Launcher",
+		"requiredResearch": [
+			"R-Wpn-MiniNuke",
+			"R-Wpn-Missile-ROF03",
+			"R-Wpn-Missile-Damage03",
+			"R-Wpn-Missile-Accuracy02"
+		],
+		"researchPoints": 20000,
+		"researchPower": 1500,
+		"resultComponents": [
+			"TacticalNuke"
+		],
+		"statID": "TacticalNuke"
+	},
+	"R-Wpn-StrategicNuke": {
+		"iconID": "IMAGE_RES_WEAPONTECH",
+		"id": "R-Wpn-StrategicNuke",
+		"msgName": "RES_W_SNUKE",
+		"name": "Strategic Nuke Missile Launcher",
+		"requiredResearch": [
+			"R-LargeCoolingTower",
+			"R-ImprovedNuclearMissile"
+		],
+		"researchPoints": 40000,
+		"researchPower": 2000,
+		"resultComponents": [
+			"StrategicNuke"
+		],
+		"statID": "StrategicNuke"
 	},
 	"R-Defense-BBU": {
 		"_dfst": null,
@@ -9413,7 +9507,7 @@
 		"statID": "Site-LasSatControl"
 	},
 	"R-Vehicle-Prop-Wheels02": {
-		"prst": null,
+		"ppst": null,
 		"iconID": "IMAGE_RES_DROIDTECH",
 		"id": "R-Vehicle-Prop-Wheels02",
 		"msgName": "RES_V_P_W2",
@@ -9526,7 +9620,8 @@
 		"researchPower": 300,
 		"resultComponents": [
 			"V-Tol02"
-		]
+		],
+		"statID": "V-Tol02"
 	},
 	"R-Vehicle-Prop-Wheels03": {
 		"iconID": "IMAGE_RES_DROIDTECH",
@@ -9641,6 +9736,7 @@
 		"researchPower": 450,
 		"resultComponents": [
 			"V-Tol03"
-		]
+		],
+		"statID": "V-Tol03"
 	}
 }
