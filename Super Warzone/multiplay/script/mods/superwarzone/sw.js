@@ -64,7 +64,7 @@ function eventCheatMode(entered)
 	cheat=entered;
 	if (cheat===true)
 	{
-		console("Send \"SpectateMe\" to enter spectator mode");
+		console("Send \"SpectateMe\" to enter spectator mode...\nThis cannot be undone!");
 	}
 }
 
@@ -75,7 +75,7 @@ function eventChat(from,to,message)
 		loplay=String(me);
 		loname=playerData.name;
 		transformPlayerToSpectator(me);
-		console("Player ",loplay,": ",loname," has become a spectator");
+		console("Player ",loplay,"; \"",loname,"\", has become a spectator");
 	}
 }
 
@@ -84,9 +84,9 @@ function consoleLog()
 	nPrint=String(tPower);
 	cPrint=String(cLimit);
 	lCPrint=String(lCLimit);
-	console("Nuclear Power ",nPrint);
-	console("Remaining Cooling Towers ",cPrint);
-	console("Remaining Large Cooling Towers ",lCPrint);
+	console("Nuclear Power = ",nPrint);
+	console("Remaining Cooling Towers = ",cPrint);
+	console("Remaining Large Cooling Towers = ",lCPrint);
 }
 
 function counter()
@@ -117,12 +117,12 @@ function setNuke()
 		power=(cool*(50+nukeUp));
 		lPower=(lCool*(100+lNukeUp));
 		tPower=(power+lPower);
-		if (tPower>NukeC)
+		if (tPower>nukeC)
 		{
-			tpower=NukeC;
+			tpower=nukeC;
 		}
-		fPower=(tPower*powerType);
-		setPower(playerPower(selectedPlayer)+fPower);
+		fPower=(tPower+(tPower*powerType/2));
+		setPower(playerPower(me)+fPower);
 		counter();
 	}
 	else 
