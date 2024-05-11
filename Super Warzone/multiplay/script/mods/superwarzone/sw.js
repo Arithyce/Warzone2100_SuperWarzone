@@ -72,7 +72,7 @@ function eventChat(from,to,message)
 {
 	if (cheat===true&&from==me&&message==="SpectateMe")
 	{
-		loplay=me;
+		loplay=String(me);
 		loname=playerData.name;
 		transformPlayerToSpectator(me);
 		console("Player ",loplay,": ",loname," has become a spectator");
